@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guess the Dead by Daylight character by narrowing down killers and survivors through perks, traits, roles, and hidden Fog-themed easter eggs.">
+  <title>Guess Who: DBD Edition</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Fredoka:wght@400;500;600;700&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=KITTEN11">
+  <script src="assets/killer-card-effects.js?v=KITTEN11" defer></script>
+  <script src="app.js?v=KITTEN11" defer></script>
+</head>
+
+<body>
+  <video class="fog-video-bg" autoplay muted loop playsinline aria-hidden="true">
+    <source src="assets/fog-background.mp4" type="video/mp4">
+  </video>
+  <div class="fog-video-overlay" aria-hidden="true"></div>
+  <main class="app">
+    <section class="topbar">
+      <div class="title-block">
+        <h1><span class="title-main">Guess Who</span> <span class="edition-wrap"><span class="edition-tag"><img class="dbd-logo" src="https://deadbydaylight.wiki.gg/images/Logo_dbd.png" alt="Dead by Daylight"></span></span></h1>
+        <div class="title-meta">
+          <p class="subtitle">Dead by Daylight edition with every killer and survivor in the board.<br>Ask yes-or-no
+            questions, eliminate suspects, then make the call.</p>
+        </div>
+      </div>
+      <div class="stats-wrap">
+        <div id="howToGroup" class="howto-group">
+        <button class="chip howto-btn" id="howToBtn" type="button" aria-expanded="false">How To<br>Play</button>
+        <div class="howto-popover" id="howToPopover" hidden>
+          <span class="rules-title">How To Play:</span>
+          This game is meant for <strong>two</strong> players.<br>
+          You <strong>both</strong> open the game and roll a <strong>hidden</strong> character.<br>
+          Pick a <strong>question</strong> to ask your friend.<br>
+          Click <strong>Yes</strong> or <strong>No</strong> based on your friend's answer.<br><br>
+          Take turns <strong>asking questions</strong> to figure out each other's characters.<br>
+          The game will <strong>automatically remove</strong> characters that <strong>do not</strong> match the answer.<br><br>
+          Only answer <strong>Yes</strong> to <strong>Killer Questions</strong> for <strong>Killers</strong> and <strong>Survivor Questions</strong> for <strong>Survivors</strong>.<br>
+          <strong>Subjective</strong> questions count as <strong>Yes</strong> and <strong>No</strong> so a character is not <strong>removed</strong> by <strong>mistake</strong>.<br><br>
+          You get one <strong>Easy Question</strong> before <strong>Hard Mode</strong>.<br>
+          You can skip the <strong>Easy Question</strong> by clicking <strong>Hard Mode</strong>.<br>
+          Each question <strong>disappears</strong> after <strong>one</strong> use.<br><br>
+          You can view <strong>Eliminated</strong> characters by clicking <strong>All/Eliminated</strong>.<br>
+          You can bring back <strong>Eliminated</strong> characters by clicking <strong>Restore</strong>.<br>
+          You can <strong>View</strong>, <strong>Undo</strong> and <strong>Redo</strong> your actions using the <strong>Last Action</strong> or <strong>Logs</strong> boxes.<br><br>
+          Keep <strong>asking</strong> questions until you are <strong>ready</strong> to <strong>guess</strong>.<br><br>
+          <span class="howto-own-line">You can also <strong>ignore</strong> the questions and make your <strong>own</strong> then manually <strong>Eliminate</strong> instead!</span>
+        </div>
+      </div>
+        <div class="cute-credit-row" aria-label="Cute mode and creator credit">
+          <button class="cute-heart-toggle cute-dark-heart-toggle" id="cuteDarkThemeToggle" type="button" aria-pressed="false" aria-label="Turn on light cute mode">🤍</button>
+          <button class="cute-heart-toggle" id="cuteThemeToggle" type="button" aria-pressed="false" aria-label="Turn on dark cute mode">🖤</button>
+          <a class="credit top-credit" href="https://www.twitch.tv/sawadistic" target="_blank" rel="noopener noreferrer">Made By: @Sawadistic</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Question controls">
+      <label id="searchField" class="lookup">
+        <span class="lookup-title">Search</span>
+        <div class="search-shell">
+          <input id="searchInput" autocomplete="off" placeholder="Search by name/alias" aria-autocomplete="list"
+            aria-expanded="false">
+          <button id="searchClearBtn" class="search-clear-btn" type="button" aria-label="Clear search" hidden>×</button>
+          <div id="searchSuggestions" class="search-suggestions" hidden></div>
+        </div>
+      </label>
+      <label id="questionLabel">
+        <span class="field-label">Questions</span>
+        <select id="questionSelect" required></select>
+      </label>
+      <label id="detailField">
+        <span class="field-label">Details</span>
+        <input id="detailInput" placeholder="No details needed">
+        <select id="roleSelect" hidden></select>
+        <select id="speedSelect" hidden></select>
+        <select id="licenseSelect" hidden></select>
+        <select id="countrySelect" hidden></select>
+        <select id="genderSelect" hidden></select>
+        <select id="hairSelect" hidden></select>
+        <select id="ethnicitySelect" hidden></select>
+        <select id="yearSelect" hidden></select>
+      </label>
+      <button class="btn good" id="yesBtn" type="button"><span class="btn-label">Yes</span></button>
+      <button class="btn no" id="noBtn" type="button"><span class="btn-label">No</span></button>
+      <div id="mode-iboxBtns">
+        <div id="modeBtn" class="difficulty-group">
+          <button class="chip danger hard-mode-btn" id="skipBaseBtn" type="button"
+            aria-pressed="false">Hard<br>Mode</button>
+        </div>
+        <div id="iboxBtn" class="custom-unlock-group">
+          <button class="chip custom-unlock-btn" id="customUnlockBtn" type="button" aria-expanded="false"
+            aria-label="Custom question unlock info">i</button>
+          <div class="custom-unlock-popover" id="customUnlockPopover" hidden><span>When you have asked 5
+              questions</span><span>in hard mode you unlock a custom</span><span>&quot;Yes/No&quot; question.</span>
+          </div>
+        </div>
+      </div><div id="newGameCta" class="game-cta">
+        <button class="btn neutral" id="newGameBtn" type="button">New Game</button>
+      </div>
+    </section>
+
+    <section class="main">
+      <aside class="side">
+        <div class="stats side-stats" aria-live="polite">
+          <div class="stat"><strong id="totalCount">0</strong><span>Characters</span></div>
+          <div class="stat"><strong id="leftCount">0</strong><span>Remaining</span></div>
+        </div>
+        <section class="panel target-panel" id="targetPanel">
+          <div class="panel-head">
+            <h2>Hidden Character</h2><button class="chip mini-toggle" id="minimizeTargetBtn" type="button"
+              aria-expanded="true">Minimize</button>
+          </div>
+          <div class="panel-body">
+            <div class="target" id="targetBox">
+              <div>
+                <div class="question-mark">?</div>
+
+              </div>
+            </div>
+            <div class="target-summary" id="targetSummary" hidden></div>
+            <div class="target-actions">
+              <button class="btn primary" id="rollCharacterBtn" type="button">Roll Character</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel answer-panel">
+          <div class="panel-head">
+            <h2>Last Action</h2><button class="chip" id="undoBtn" type="button">Undo</button>
+          </div>
+          <div class="panel-body">
+            <div class="answer" id="answerBox">Ask your friend a question<br>then click Yes or No.</div>
+          </div>
+        </section>
+
+        <section class="panel question-log-panel">
+          <div class="panel-head">
+            <h2>Question Log</h2><button class="chip" id="questionUndoBtn" type="button">Undo</button>
+          </div>
+          <div class="panel-body">
+            <div class="log" id="log"></div>
+          </div>
+        </section>
+
+        <section class="panel undo-log-panel">
+          <div class="panel-head">
+            <h2>Undo Log</h2><button class="chip" id="actionUndoBtn" type="button">Undo</button>
+          </div>
+          <div class="panel-body">
+            <div class="log action-log" id="actionLog"></div>
+          </div>
+        </section>
+      </aside>
+
+      <section>
+        <div class="filters" aria-label="Board filters">
+          <div class="filter-group">
+            <button class="chip active" data-filter="all" type="button">All</button>
+            <span class="filter-divider" aria-hidden="true"></span>
+            <button class="chip" data-filter="killer" type="button">Killers</button>
+            <button class="chip" data-filter="survivor" type="button">Survivors</button>
+            <span class="filter-divider" aria-hidden="true"></span>
+            <button class="chip" data-filter="standing" type="button">Remaining</button>
+            <button class="chip" data-filter="eliminated" type="button">Eliminated</button>
+          </div>
+          <div class="bulk-group">
+            <button class="chip danger" data-cross-group="killer" type="button">Eliminate Killers</button>
+            <button class="chip danger" data-cross-group="female" type="button">Eliminate Females</button>
+            <button class="chip danger" data-cross-group="licensed" type="button">Eliminate Licensed</button>
+            <button class="chip danger" data-cross-group="survivor" type="button">Eliminate Survivors</button>
+            <button class="chip danger" data-cross-group="male" type="button">Eliminate Males</button>
+            <button class="chip danger" data-cross-group="original" type="button">Eliminate Original</button>
+          </div>
+        </div>
+        <div class="grid" id="grid"></div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="resultDialog">
+    <div class="panel-head">
+      <h2 id="resultTitle">Result</h2>
+    </div>
+    <div class="modal-body">
+      <div id="resultText"></div>
+      <div class="modal-actions">
+        <button class="btn" id="closeDialogBtn" type="button">Keep Looking</button>
+        <button class="btn good" id="correctGuessBtn" type="button">Correct</button>
+        <button class="btn no" id="wrongGuessBtn" type="button">Incorrect</button>
+        <button class="btn neutral" id="dialogNewGameBtn" type="button">New Game</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="perkDialog" class="perk-dialog">
+    <div class="panel-head perk-dialog-head">
+      <h2 id="perkDialogTitle">Perk</h2>
+    </div>
+    <div class="modal-body perk-modal-body">
+      <div id="perkDialogText" class="perk-dialog-text"></div>
+      <div class="modal-actions">
+        <button class="btn" id="closePerkDialogBtn" type="button">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="newGameDialog">
+    <div class="panel-head">
+      <h2>Start New Game?</h2>
+    </div>
+    <div class="modal-body">
+      <div id="newGameText">This will reset the board, questions, and logs.</div>
+      <div class="modal-actions">
+        <button class="btn" id="cancelNewGameBtn" type="button">Keep Playing</button>
+        <button class="btn neutral" id="confirmNewGameBtn" type="button">New Game</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+
+</html>
+
+
+
+
+

@@ -1,0 +1,2959 @@
+body.cute-mode.cute-dark-mode {
+    color-scheme: dark;
+    --bg: #05040a;
+    --panel: #090812;
+    --panel-soft: #15101f;
+    --line: rgba(255, 168, 222, .62);
+    --line-soft: rgba(169, 223, 255, .52);
+    --text: #bfeaff;
+    --muted: #ff9bd6;
+    --dim: #9bdcff;
+    --red: #ff9bd6;
+    --red-dark: #ff70c3;
+    --green: #9bdcff;
+    --green-dark: #68caff;
+    --gold: #ffc6ea;
+    color: #bfeaff;
+    background:
+        radial-gradient(circle at 12% 14%, rgba(255, 104, 190, .26), transparent 23rem),
+        radial-gradient(circle at 86% 8%, rgba(105, 204, 255, .22), transparent 25rem),
+        radial-gradient(circle at 50% 100%, rgba(255, 155, 214, .14), transparent 31rem),
+        linear-gradient(135deg, #05040a 0%, #100817 42%, #07131b 72%, #05040a 100%) !important;
+}
+
+body.cute-mode.cute-dark-mode .fog-video-bg {
+    opacity: .16 !important;
+    filter: saturate(.85) hue-rotate(178deg) brightness(.42) blur(.4px) !important;
+}
+
+body.cute-mode.cute-dark-mode .fog-video-overlay {
+    background:
+        radial-gradient(circle at 9% 16%, rgba(255, 105, 190, .19), transparent 22rem),
+        radial-gradient(circle at 93% 0%, rgba(116, 213, 255, .2), transparent 24rem),
+        radial-gradient(circle at 63% 78%, rgba(255, 155, 214, .1), transparent 28rem),
+        linear-gradient(180deg, rgba(3,3,8,.9), rgba(12,6,18,.9)) !important;
+}
+
+body.cute-mode.cute-dark-mode .app,
+body.cute-mode.cute-dark-mode .subtitle,
+body.cute-mode.cute-dark-mode .top-credit,
+body.cute-mode.cute-dark-mode .lookup-title,
+body.cute-mode.cute-dark-mode .field-label,
+body.cute-mode.cute-dark-mode .control-credit,
+body.cute-mode.cute-dark-mode .log-copy small,
+body.cute-mode.cute-dark-mode .last-action-detail,
+body.cute-mode.cute-dark-mode .question-elim-empty,
+body.cute-mode.cute-dark-mode .meta,
+body.cute-mode.cute-dark-mode .target-meta,
+body.cute-mode.cute-dark-mode .intel,
+body.cute-mode.cute-dark-mode .target-intel,
+body.cute-mode.cute-dark-mode .answer,
+body.cute-mode.cute-dark-mode .rules-title + *,
+body.cute-mode.cute-dark-mode label,
+body.cute-mode.cute-dark-mode small,
+body.cute-mode.cute-dark-mode p {
+    color: #bfeaff !important;
+}
+
+body.cute-mode.cute-dark-mode .title-main,
+body.cute-mode.cute-dark-mode h1,
+body.cute-mode.cute-dark-mode h2,
+body.cute-mode.cute-dark-mode h3,
+body.cute-mode.cute-dark-mode .target-name,
+body.cute-mode.cute-dark-mode .answer strong,
+body.cute-mode.cute-dark-mode .picked-name,
+body.cute-mode.cute-dark-mode .rules-title,
+body.cute-mode.cute-dark-mode .perk-detail-name {
+    color: #ff9bd6 !important;
+    text-shadow: 0 2px 0 rgba(0,0,0,.72), 0 0 18px rgba(255, 117, 198, .5), 0 0 22px rgba(148, 221, 255, .24) !important;
+}
+
+body.cute-mode.cute-dark-mode .topbar {
+    border-bottom-color: rgba(255, 168, 222, .42) !important;
+}
+
+body.cute-mode.cute-dark-mode .edition-tag,
+body.cute-mode.cute-dark-mode .controls,
+body.cute-mode.cute-dark-mode .panel,
+body.cute-mode.cute-dark-mode .card,
+body.cute-mode.cute-dark-mode dialog,
+body.cute-mode.cute-dark-mode .stat,
+body.cute-mode.cute-dark-mode .target,
+body.cute-mode.cute-dark-mode .custom-unlock-popover,
+body.cute-mode.cute-dark-mode .howto-popover,
+body.cute-mode.cute-dark-mode .search-suggestions,
+body.cute-mode.cute-dark-mode .question-elim-popover,
+body.cute-mode.cute-dark-mode .question-elim-group,
+body.cute-mode.cute-dark-mode .meow-custom-select-list,
+body.cute-mode.cute-dark-mode .perk-dialog,
+body.cute-mode.cute-dark-mode .cute-mode-confirm-window {
+    border-color: rgba(255, 168, 222, .52) !important;
+    color: #bfeaff !important;
+    background:
+        radial-gradient(circle at 18% 0%, rgba(255, 117, 198, .18), transparent 18rem),
+        radial-gradient(circle at 98% 14%, rgba(111, 211, 255, .16), transparent 18rem),
+        linear-gradient(145deg, rgba(7,6,13,.97), rgba(18,10,25,.96) 50%, rgba(6,17,24,.97)) !important;
+    box-shadow: 0 16px 38px rgba(255, 117, 198, .13), 0 0 28px rgba(111, 211, 255, .06), inset 0 1px 0 rgba(255,255,255,.08) !important;
+}
+
+body.cute-mode.cute-dark-mode .panel-head,
+body.cute-mode.cute-dark-mode .log-item,
+body.cute-mode.cute-dark-mode .target-summary,
+body.cute-mode.cute-dark-mode .perk-detail-card,
+body.cute-mode.cute-dark-mode .question-elim-page + .question-elim-page,
+body.cute-mode.cute-dark-mode .perk-dialog-head,
+body.cute-mode.cute-dark-mode .perk-dialog-body {
+    border-color: rgba(169, 223, 255, .32) !important;
+    background: rgba(5, 5, 12, .66) !important;
+}
+
+body.cute-mode.cute-dark-mode input,
+body.cute-mode.cute-dark-mode select,
+body.cute-mode.cute-dark-mode textarea,
+body.cute-mode.cute-dark-mode .meow-custom-select-button,
+body.cute-mode.cute-dark-mode .meow-custom-select-option,
+body.cute-mode.cute-dark-mode .search-suggestion {
+    border-color: rgba(255, 168, 222, .54) !important;
+    color: #c9efff !important;
+    background: linear-gradient(135deg, #07060d, #140b1b 55%, #071722) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.07) !important;
+}
+
+body.cute-mode.cute-dark-mode input::placeholder,
+body.cute-mode.cute-dark-mode textarea::placeholder {
+    color: rgba(169, 223, 255, .72) !important;
+}
+
+body.cute-mode.cute-dark-mode select optgroup,
+body.cute-mode.cute-dark-mode select option,
+body.cute-mode.cute-dark-mode #questionSelect optgroup,
+body.cute-mode.cute-dark-mode #questionSelect option {
+    color: #c9efff !important;
+    background: #090812 !important;
+}
+
+body.cute-mode.cute-dark-mode .btn,
+body.cute-mode.cute-dark-mode .chip,
+body.cute-mode.cute-dark-mode .card-action,
+body.cute-mode.cute-dark-mode .log-step-btn,
+body.cute-mode.cute-dark-mode .lore,
+body.cute-mode.cute-dark-mode .restore-overlay,
+body.cute-mode.cute-dark-mode .custom-unlock-btn,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn,
+body.cute-mode.cute-dark-mode .panel-head .chip,
+body.cute-mode.cute-dark-mode .search-clear-btn {
+    border-color: rgba(255, 168, 222, .58) !important;
+    color: #bfeaff !important;
+    background: linear-gradient(135deg, #08070f 0%, #180d21 48%, #071923 100%) !important;
+    box-shadow: 0 8px 18px rgba(255, 117, 198, .14), inset 0 1px 0 rgba(255,255,255,.08) !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .btn:hover,
+body.cute-mode.cute-dark-mode .chip:hover,
+body.cute-mode.cute-dark-mode .card-action:hover,
+body.cute-mode.cute-dark-mode .log-step-btn:hover,
+body.cute-mode.cute-dark-mode .lore:hover,
+body.cute-mode.cute-dark-mode .meow-custom-select-option:hover,
+body.cute-mode.cute-dark-mode .search-suggestion:hover,
+body.cute-mode.cute-dark-mode .search-suggestion:focus-visible {
+    border-color: rgba(169, 223, 255, .72) !important;
+    color: #ff9bd6 !important;
+    background: linear-gradient(135deg, #090813, #081c28, #1b0e24) !important;
+    box-shadow: 0 10px 24px rgba(111, 211, 255, .16), inset 0 1px 0 rgba(255,255,255,.09) !important;
+}
+
+body.cute-mode.cute-dark-mode .btn.good,
+body.cute-mode.cute-dark-mode .pill.yes,
+body.cute-mode.cute-dark-mode .last-action-answer-pill.pill.yes {
+    border-color: rgba(169, 223, 255, .72) !important;
+    color: #bfeaff !important;
+    background: linear-gradient(135deg, #06121b, #0b2634, #170d20) !important;
+}
+
+body.cute-mode.cute-dark-mode .btn.no,
+body.cute-mode.cute-dark-mode .btn.danger,
+body.cute-mode.cute-dark-mode .chip.danger,
+body.cute-mode.cute-dark-mode .card-action.guess,
+body.cute-mode.cute-dark-mode .pill.no,
+body.cute-mode.cute-dark-mode .last-action-answer-pill.pill.no,
+body.cute-mode.cute-dark-mode .filters .chip.active,
+body.cute-mode.cute-dark-mode .chip.active,
+body.cute-mode.cute-dark-mode .chip.ready,
+body.cute-mode.cute-dark-mode .bulk-group .chip.active,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn.active {
+    border-color: rgba(255, 155, 214, .75) !important;
+    color: #ff9bd6 !important;
+    background: linear-gradient(135deg, #170817, #291026, #061923) !important;
+}
+
+body.cute-mode.cute-dark-mode .card.killer,
+body.cute-mode.cute-dark-mode .card.survivor,
+body.cute-mode.cute-dark-mode .target,
+body.cute-mode.cute-dark-mode .target.revealed.killer,
+body.cute-mode.cute-dark-mode .target.killer,
+body.cute-mode.cute-dark-mode .target.revealed.survivor,
+body.cute-mode.cute-dark-mode .target.survivor {
+    background:
+        radial-gradient(circle at 18% 0%, rgba(255, 117, 198, .19), transparent 42%),
+        radial-gradient(circle at 88% 6%, rgba(108, 210, 255, .17), transparent 38%),
+        linear-gradient(145deg, #090812, #160b1c 52%, #071923 100%) !important;
+}
+
+body.cute-mode.cute-dark-mode .card:hover,
+body.cute-mode.cute-dark-mode .card.killer:hover,
+body.cute-mode.cute-dark-mode .card.survivor:hover,
+body.cute-mode.cute-dark-mode .card.streamer-glow:hover {
+    border-color: rgba(255, 155, 214, .82) !important;
+    box-shadow: 0 0 0 2px rgba(169, 223, 255, .14), 0 18px 34px rgba(255, 117, 198, .16) !important;
+    filter: none !important;
+}
+
+body.cute-mode.cute-dark-mode .card.eliminated {
+    opacity: .5 !important;
+    filter: saturate(.5) brightness(.72) opacity(.82) !important;
+}
+
+body.cute-mode.cute-dark-mode .card.eliminated:hover {
+    filter: saturate(.5) brightness(.72) opacity(.82) !important;
+}
+
+body.cute-mode.cute-dark-mode .card-name,
+body.cute-mode.cute-dark-mode .target-name,
+body.cute-mode.cute-dark-mode .perk-name,
+body.cute-mode.cute-dark-mode .question-title,
+body.cute-mode.cute-dark-mode .log-title,
+body.cute-mode.cute-dark-mode .stat-value {
+    color: #ff9bd6 !important;
+}
+
+body.cute-mode.cute-dark-mode .cute-heart-toggle {
+    box-shadow: 0 8px 20px rgba(255, 117, 198, .16), inset 0 1px 0 rgba(255,255,255,.08) !important;
+}
+
+body.cute-mode .cute-dark-heart-toggle {
+    margin-left: .35rem;
+    color: #a9dfff !important;
+    background: linear-gradient(135deg, #f7fdff, #d9f3ff, #fff0fa) !important;
+    border-color: rgba(169, 223, 255, .98) !important;
+}
+
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle,
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle.active {
+    color: #a9dfff !important;
+    background: linear-gradient(135deg, #071923, #0d2635 48%, #180d21 100%) !important;
+    border-color: rgba(169, 223, 255, .78) !important;
+    box-shadow: 0 0 0 2px rgba(169, 223, 255, .18), 0 10px 24px rgba(111, 211, 255, .18), inset 0 1px 0 rgba(255,255,255,.1) !important;
+}
+
+body.cute-mode.cute-dark-mode img,
+body.cute-mode.cute-dark-mode canvas,
+body.cute-mode.cute-dark-mode video {
+    border-color: rgba(255, 168, 222, .34) !important;
+}
+
+body.cute-mode.cute-dark-mode .perk-icon,
+body.cute-mode.cute-dark-mode .perk-thumb,
+body.cute-mode.cute-dark-mode .role-icon,
+body.cute-mode.cute-dark-mode .portrait,
+body.cute-mode.cute-dark-mode .card img {
+    filter: drop-shadow(0 0 10px rgba(255, 117, 198, .16)) drop-shadow(0 0 12px rgba(111, 211, 255, .1));
+}
+
+body.cute-mode.cute-dark-mode .gw-cute-transform-overlay,
+body.cute-mode.cute-dark-mode .gw-cute-transform-curtain,
+body.cute-mode.cute-dark-mode .gw-cute-transform-banner,
+body.cute-mode.cute-dark-mode .gw-cute-transform-cloud,
+body.cute-mode.cute-dark-mode .gw-cute-elim-card {
+    background-color: rgba(7, 6, 13, .96) !important;
+    color: #bfeaff !important;
+}
+
+body.cute-mode.cute-dark-mode ::selection {
+    color: #05040a;
+    background: #a9dfff;
+}
+
+body.cute-mode.cute-dark-mode {
+    --cute-blue: #9bdfff;
+    --cute-blue-strong: #75d2ff;
+    --cute-pink: #ff9bd6;
+    --cute-pink-strong: #ff77c8;
+    --cute-text: #bfeaff;
+    --cute-border-pink: rgba(255, 155, 214, .58);
+    --cute-border-blue: rgba(169, 223, 255, .52);
+    --cute-white: #090812;
+}
+
+body.cute-mode.cute-dark-mode,
+body.cute-mode.cute-dark-mode * {
+    border-color: rgba(255, 155, 214, .46) !important;
+    outline-color: rgba(169, 223, 255, .44) !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .title-main,
+body.cute-mode.cute-dark-mode h1 .title-main,
+body.cute-mode.cute-dark-mode .edition-tag::before {
+    opacity: 1 !important;
+    color: #ff9bd6 !important;
+    -webkit-text-fill-color: #ff9bd6 !important;
+    -webkit-text-stroke: 0 transparent !important;
+    text-shadow: 0 2px 0 rgba(0,0,0,.82), 0 0 18px rgba(255, 117, 198, .45), 0 0 20px rgba(169, 223, 255, .22) !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+body.cute-mode.cute-dark-mode .edition-tag,
+body.cute-mode.cute-dark-mode .controls,
+body.cute-mode.cute-dark-mode .lookup,
+body.cute-mode.cute-dark-mode #questionLabel,
+body.cute-mode.cute-dark-mode #detailField,
+body.cute-mode.cute-dark-mode #newGameCta,
+body.cute-mode.cute-dark-mode .game-cta,
+body.cute-mode.cute-dark-mode .stats,
+body.cute-mode.cute-dark-mode .stats-wrap,
+body.cute-mode.cute-dark-mode .stat,
+body.cute-mode.cute-dark-mode .panel,
+body.cute-mode.cute-dark-mode .panel-head,
+body.cute-mode.cute-dark-mode .panel-body,
+body.cute-mode.cute-dark-mode .target-panel,
+body.cute-mode.cute-dark-mode .answer-panel,
+body.cute-mode.cute-dark-mode .question-log-panel,
+body.cute-mode.cute-dark-mode .undo-log-panel,
+body.cute-mode.cute-dark-mode .target,
+body.cute-mode.cute-dark-mode #targetBox,
+body.cute-mode.cute-dark-mode .target-reveal,
+body.cute-mode.cute-dark-mode .target-summary,
+body.cute-mode.cute-dark-mode .answer,
+body.cute-mode.cute-dark-mode #answerBox,
+body.cute-mode.cute-dark-mode .log,
+body.cute-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode #actionLog,
+body.cute-mode.cute-dark-mode .log-item,
+body.cute-mode.cute-dark-mode .question-log-entry,
+body.cute-mode.cute-dark-mode .question-log-entry .log-copy,
+body.cute-mode.cute-dark-mode .card,
+body.cute-mode.cute-dark-mode .card-top,
+body.cute-mode.cute-dark-mode .card-body,
+body.cute-mode.cute-dark-mode .meta,
+body.cute-mode.cute-dark-mode .meta-row,
+body.cute-mode.cute-dark-mode .intel,
+body.cute-mode.cute-dark-mode .intel-row,
+body.cute-mode.cute-dark-mode .from-row,
+body.cute-mode.cute-dark-mode .from-row span,
+body.cute-mode.cute-dark-mode .tag,
+body.cute-mode.cute-dark-mode .perk-list,
+body.cute-mode.cute-dark-mode .perk-list span,
+body.cute-mode.cute-dark-mode .empty-board,
+body.cute-mode.cute-dark-mode .lore-popover,
+body.cute-mode.cute-dark-mode .question-elim-popover,
+body.cute-mode.cute-dark-mode .question-elim-group,
+body.cute-mode.cute-dark-mode .question-elim-column,
+body.cute-mode.cute-dark-mode .question-elim-page,
+body.cute-mode.cute-dark-mode .question-elim-empty,
+body.cute-mode.cute-dark-mode .howto-popover,
+body.cute-mode.cute-dark-mode .custom-unlock-popover,
+body.cute-mode.cute-dark-mode .search-suggestions,
+body.cute-mode.cute-dark-mode .search-suggestion,
+body.cute-mode.cute-dark-mode .meow-custom-select-list,
+body.cute-mode.cute-dark-mode .meow-custom-select-option,
+body.cute-mode.cute-dark-mode dialog,
+body.cute-mode.cute-dark-mode .modal-body,
+body.cute-mode.cute-dark-mode .result-card,
+body.cute-mode.cute-dark-mode .perk-dialog,
+body.cute-mode.cute-dark-mode .perk-dialog-head,
+body.cute-mode.cute-dark-mode .perk-dialog-body,
+body.cute-mode.cute-dark-mode .perk-modal-body,
+body.cute-mode.cute-dark-mode .perk-dialog-text,
+body.cute-mode.cute-dark-mode .perk-detail-card,
+body.cute-mode.cute-dark-mode .perk-detail-copy,
+body.cute-mode.cute-dark-mode .official-perk-text {
+    background-color: #090812 !important;
+    background-image:
+        radial-gradient(circle at 16% 0%, rgba(255, 117, 198, .16), transparent 18rem),
+        radial-gradient(circle at 100% 12%, rgba(117, 210, 255, .14), transparent 18rem),
+        linear-gradient(180deg, #090812 0%, #120a1a 55%, #071722 100%) !important;
+    color: #bfeaff !important;
+    box-shadow: 0 12px 26px rgba(255, 117, 198, .10), 0 0 18px rgba(117, 210, 255, .05), inset 0 1px 0 rgba(255,255,255,.06) !important;
+}
+
+body.cute-mode.cute-dark-mode .card-top,
+body.cute-mode.cute-dark-mode .character-bubble,
+body.cute-mode.cute-dark-mode .portrait,
+body.cute-mode.cute-dark-mode .target-reveal img,
+body.cute-mode.cute-dark-mode .result-portrait img,
+body.cute-mode.cute-dark-mode .perk-detail-icon-wrap,
+body.cute-mode.cute-dark-mode .question-mark {
+    background-color: #070711 !important;
+    background-image:
+        radial-gradient(circle at 42% 36%, rgba(255, 155, 214, .16), transparent 42%),
+        radial-gradient(circle at 68% 18%, rgba(169, 223, 255, .13), transparent 36%),
+        linear-gradient(145deg, #070711 0%, #110a19 54%, #061621 100%) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 10px 20px rgba(0,0,0,.22) !important;
+}
+
+body.cute-mode.cute-dark-mode input,
+body.cute-mode.cute-dark-mode textarea,
+body.cute-mode.cute-dark-mode select,
+body.cute-mode.cute-dark-mode #searchInput,
+body.cute-mode.cute-dark-mode #questionSelect,
+body.cute-mode.cute-dark-mode #detailInput,
+body.cute-mode.cute-dark-mode #roleSelect,
+body.cute-mode.cute-dark-mode #speedSelect,
+body.cute-mode.cute-dark-mode #licenseSelect,
+body.cute-mode.cute-dark-mode #countrySelect,
+body.cute-mode.cute-dark-mode #genderSelect,
+body.cute-mode.cute-dark-mode #hairSelect,
+body.cute-mode.cute-dark-mode #ethnicitySelect,
+body.cute-mode.cute-dark-mode #yearSelect,
+body.cute-mode.cute-dark-mode .meow-custom-select-button {
+    border-color: rgba(169, 223, 255, .58) !important;
+    background-color: #080711 !important;
+    background-image:
+        linear-gradient(45deg, transparent 50%, #ff9bd6 50%),
+        linear-gradient(135deg, #ff9bd6 50%, transparent 50%),
+        linear-gradient(180deg, #080711 0%, #130b1b 55%, #071722 100%) !important;
+    color: #c9efff !important;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.06) !important;
+}
+
+body.cute-mode.cute-dark-mode input::placeholder,
+body.cute-mode.cute-dark-mode textarea::placeholder,
+body.cute-mode.cute-dark-mode .empty-question-placeholder {
+    color: rgba(169, 223, 255, .72) !important;
+}
+
+body.cute-mode.cute-dark-mode select option,
+body.cute-mode.cute-dark-mode select optgroup,
+body.cute-mode.cute-dark-mode #questionSelect option,
+body.cute-mode.cute-dark-mode #questionSelect optgroup,
+body.cute-mode.cute-dark-mode datalist option {
+    background: #090812 !important;
+    color: #c9efff !important;
+}
+
+body.cute-mode.cute-dark-mode .search-suggestions,
+body.cute-mode.cute-dark-mode .meow-custom-select-list,
+body.cute-mode.cute-dark-mode .custom-unlock-popover,
+body.cute-mode.cute-dark-mode .howto-popover,
+body.cute-mode.cute-dark-mode .question-elim-popover {
+    background: linear-gradient(180deg, #080711 0%, #130b1b 52%, #071722 100%) !important;
+    box-shadow: 0 18px 34px rgba(0,0,0,.28), 0 10px 24px rgba(255, 117, 198, .12), 0 8px 22px rgba(117, 210, 255, .08) !important;
+}
+
+body.cute-mode.cute-dark-mode .search-suggestion,
+body.cute-mode.cute-dark-mode .meow-custom-select-option {
+    background: transparent !important;
+    color: #bfeaff !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .search-suggestion:hover,
+body.cute-mode.cute-dark-mode .search-suggestion:focus-visible,
+body.cute-mode.cute-dark-mode .meow-custom-select-option:hover,
+body.cute-mode.cute-dark-mode .meow-custom-select-option:focus-visible,
+body.cute-mode.cute-dark-mode .meow-custom-select-option[aria-selected="true"] {
+    background: linear-gradient(90deg, rgba(255, 117, 198, .22) 0%, rgba(117, 210, 255, .18) 100%) !important;
+    color: #ff9bd6 !important;
+}
+
+body.cute-mode.cute-dark-mode .panel-head .chip,
+body.cute-mode.cute-dark-mode #undoBtn,
+body.cute-mode.cute-dark-mode #questionUndoBtn,
+body.cute-mode.cute-dark-mode #actionUndoBtn,
+body.cute-mode.cute-dark-mode #minimizeTargetBtn,
+body.cute-mode.cute-dark-mode .mini-toggle,
+body.cute-mode.cute-dark-mode .chip,
+body.cute-mode.cute-dark-mode .btn,
+body.cute-mode.cute-dark-mode .log-step-btn,
+body.cute-mode.cute-dark-mode .question-log-entry .log-control,
+body.cute-mode.cute-dark-mode .question-elim-toggle,
+body.cute-mode.cute-dark-mode .custom-unlock-btn,
+body.cute-mode.cute-dark-mode .hard-mode-btn,
+body.cute-mode.cute-dark-mode .search-clear-btn,
+body.cute-mode.cute-dark-mode .restore-overlay,
+body.cute-mode.cute-dark-mode .lore,
+body.cute-mode.cute-dark-mode .card-action,
+body.cute-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode .card-action.eliminate,
+body.cute-mode.cute-dark-mode #rollCharacterBtn,
+body.cute-mode.cute-dark-mode #newGameBtn,
+body.cute-mode.cute-dark-mode #dialogNewGameBtn,
+body.cute-mode.cute-dark-mode #confirmNewGameBtn,
+body.cute-mode.cute-dark-mode #correctGuessBtn,
+body.cute-mode.cute-dark-mode #wrongGuessBtn,
+body.cute-mode.cute-dark-mode .howto-btn,
+body.cute-mode.cute-dark-mode .cute-mode-confirm-yes,
+body.cute-mode.cute-dark-mode .cute-mode-confirm-no {
+    border-color: rgba(169, 223, 255, .5) !important;
+    background: linear-gradient(180deg, #0a0a14 0%, #121020 52%, #071923 100%) !important;
+    color: #bfeaff !important;
+    box-shadow: 0 8px 16px rgba(0,0,0,.22), 0 0 14px rgba(117, 210, 255, .08), inset 0 1px 0 rgba(255,255,255,.06) !important;
+}
+
+body.cute-mode.cute-dark-mode .btn:hover,
+body.cute-mode.cute-dark-mode .chip:hover,
+body.cute-mode.cute-dark-mode .card-action:hover,
+body.cute-mode.cute-dark-mode .log-step-btn:hover,
+body.cute-mode.cute-dark-mode .lore:hover,
+body.cute-mode.cute-dark-mode .search-clear-btn:hover,
+body.cute-mode.cute-dark-mode .howto-btn:hover {
+    border-color: rgba(255, 155, 214, .76) !important;
+    background: linear-gradient(180deg, #11101f 0%, #1d1028 54%, #082031 100%) !important;
+    color: #ff9bd6 !important;
+    box-shadow: 0 10px 22px rgba(255, 117, 198, .14), 0 0 18px rgba(117, 210, 255, .1), inset 0 1px 0 rgba(255,255,255,.07) !important;
+}
+
+body.cute-mode.cute-dark-mode .btn.no,
+body.cute-mode.cute-dark-mode .btn.danger,
+body.cute-mode.cute-dark-mode .chip.danger,
+body.cute-mode.cute-dark-mode .chip.active,
+body.cute-mode.cute-dark-mode .filters .chip.active,
+body.cute-mode.cute-dark-mode .bulk-group .chip.active,
+body.cute-mode.cute-dark-mode .card-action.guess,
+body.cute-mode.cute-dark-mode .card.survivor .card-action.guess,
+body.cute-mode.cute-dark-mode .card.killer .card-action.guess,
+body.cute-mode.cute-dark-mode .pill.no,
+body.cute-mode.cute-dark-mode #rollCharacterBtn {
+    border-color: rgba(255, 155, 214, .72) !important;
+    background: linear-gradient(180deg, #170817 0%, #281026 52%, #0a1420 100%) !important;
+    color: #ff9bd6 !important;
+}
+
+body.cute-mode.cute-dark-mode .btn.good,
+body.cute-mode.cute-dark-mode .btn.neutral,
+body.cute-mode.cute-dark-mode .pill.yes,
+body.cute-mode.cute-dark-mode #newGameBtn,
+body.cute-mode.cute-dark-mode #dialogNewGameBtn,
+body.cute-mode.cute-dark-mode #confirmNewGameBtn,
+body.cute-mode.cute-dark-mode .howto-btn,
+body.cute-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode .card-action.eliminate {
+    border-color: rgba(169, 223, 255, .7) !important;
+    background: linear-gradient(180deg, #06131d 0%, #0b2634 54%, #120d20 100%) !important;
+    color: #a9dfff !important;
+}
+
+body.cute-mode.cute-dark-mode .tag,
+body.cute-mode.cute-dark-mode .pill,
+body.cute-mode.cute-dark-mode .perk-list span,
+body.cute-mode.cute-dark-mode .perk-chip,
+body.cute-mode.cute-dark-mode .target-intel .intel-row span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .intel-row span:not(.perk-list):not(.lore-row) {
+    border-color: rgba(255, 155, 214, .45) !important;
+    background: linear-gradient(180deg, #0a0914 0%, #160d1f 56%, #071722 100%) !important;
+    color: #bfeaff !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 5px 10px rgba(0,0,0,.16) !important;
+}
+
+body.cute-mode.cute-dark-mode .perk-name,
+body.cute-mode.cute-dark-mode .card-name,
+body.cute-mode.cute-dark-mode .question-title,
+body.cute-mode.cute-dark-mode .log-title,
+body.cute-mode.cute-dark-mode .stat-value,
+body.cute-mode.cute-dark-mode .panel-head h2,
+body.cute-mode.cute-dark-mode .lookup-title,
+body.cute-mode.cute-dark-mode .field-label,
+body.cute-mode.cute-dark-mode .rules-title,
+body.cute-mode.cute-dark-mode .perk-detail-copy h3,
+body.cute-mode.cute-dark-mode .perk-detail-name {
+    color: #ff9bd6 !important;
+    -webkit-text-fill-color: #ff9bd6 !important;
+    -webkit-text-stroke: 0 transparent !important;
+    text-shadow: 0 1px 0 rgba(0,0,0,.65), 0 0 14px rgba(255, 117, 198, .28) !important;
+}
+
+body.cute-mode.cute-dark-mode .empty-board,
+body.cute-mode.cute-dark-mode .question-elim-empty {
+    border: 2px solid rgba(255, 155, 214, .5) !important;
+    border-radius: 24px !important;
+    color: #ff9bd6 !important;
+    text-align: center !important;
+}
+
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle,
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle.active {
+    color: #a9dfff !important;
+    background: linear-gradient(135deg, #071923, #0d2635 48%, #180d21 100%) !important;
+    border-color: rgba(169, 223, 255, .78) !important;
+}
+
+body.cute-mode.cute-dark-mode {
+    --cute-dark-bg: #05040a;
+    --cute-dark-panel: #0b0913;
+    --cute-dark-panel-2: #120a19;
+    --cute-dark-panel-3: #071722;
+    --cute-dark-cell: rgba(8, 7, 15, .92);
+    --cute-dark-cell-2: rgba(12, 9, 20, .96);
+    --cute-dark-pink: #ff9bd6;
+    --cute-dark-blue: #a9dfff;
+    --cute-dark-text: #c8efff;
+    --cute-dark-border-pink: rgba(255, 155, 214, .64);
+    --cute-dark-border-blue: rgba(169, 223, 255, .6);
+}
+
+body.cute-mode.cute-dark-mode .app::before,
+body.cute-mode.cute-dark-mode .controls::before,
+body.cute-mode.cute-dark-mode .controls::after,
+body.cute-mode.cute-dark-mode .panel::before,
+body.cute-mode.cute-dark-mode .panel::after,
+body.cute-mode.cute-dark-mode .panel-head::after,
+body.cute-mode.cute-dark-mode .panel-body::before,
+body.cute-mode.cute-dark-mode .panel-body::after,
+body.cute-mode.cute-dark-mode .card::before,
+body.cute-mode.cute-dark-mode .card::after,
+body.cute-mode.cute-dark-mode .target::before,
+body.cute-mode.cute-dark-mode .target::after,
+body.cute-mode.cute-dark-mode .stat::before,
+body.cute-mode.cute-dark-mode .stat::after,
+body.cute-mode.cute-dark-mode dialog::before,
+body.cute-mode.cute-dark-mode .howto-btn::before,
+body.cute-mode.cute-dark-mode .howto-btn::after,
+body.cute-mode.cute-dark-mode .topbar .howto-btn::before,
+body.cute-mode.cute-dark-mode .topbar .howto-btn::after,
+body.cute-mode.cute-dark-mode .question-log-panel .panel-body::before,
+body.cute-mode.cute-dark-mode .question-log-panel .panel-body::after,
+body.cute-mode.cute-dark-mode .answer-panel .panel-body::before,
+body.cute-mode.cute-dark-mode .answer-panel .panel-body::after,
+body.cute-mode.cute-dark-mode .target-panel .panel-body::before,
+body.cute-mode.cute-dark-mode .target-panel .panel-body::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode h1,
+body.cute-mode.cute-dark-mode .title-main {
+    opacity: 1 !important;
+    color: var(--cute-dark-pink) !important;
+    -webkit-text-fill-color: var(--cute-dark-pink) !important;
+    -webkit-text-stroke: 0 !important;
+    background: none !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    text-shadow: 0 3px 0 rgba(0,0,0,.75), 0 0 20px rgba(255,155,214,.42) !important;
+}
+body.cute-mode.cute-dark-mode .title-main::before,
+body.cute-mode.cute-dark-mode .title-main::after {
+    content: none !important;
+    display: none !important;
+}
+
+body.cute-mode.cute-dark-mode .controls,
+body.cute-mode.cute-dark-mode .panel,
+body.cute-mode.cute-dark-mode .target-panel,
+body.cute-mode.cute-dark-mode .answer-panel,
+body.cute-mode.cute-dark-mode .question-log-panel,
+body.cute-mode.cute-dark-mode .undo-log-panel,
+body.cute-mode.cute-dark-mode .stat,
+body.cute-mode.cute-dark-mode dialog,
+body.cute-mode.cute-dark-mode .howto-popover,
+body.cute-mode.cute-dark-mode .custom-unlock-popover,
+body.cute-mode.cute-dark-mode .question-elim-popover,
+body.cute-mode.cute-dark-mode .perk-dialog {
+    background-color: var(--cute-dark-panel) !important;
+    background-image: linear-gradient(180deg, #110918 0%, #0b0913 58%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: 0 14px 28px rgba(0,0,0,.26), 0 0 24px rgba(255,155,214,.10) !important;
+}
+
+body.cute-mode.cute-dark-mode .panel-body,
+body.cute-mode.cute-dark-mode .card-body,
+body.cute-mode.cute-dark-mode .meta,
+body.cute-mode.cute-dark-mode .meta-row,
+body.cute-mode.cute-dark-mode .intel,
+body.cute-mode.cute-dark-mode .intel-row,
+body.cute-mode.cute-dark-mode .from-row,
+body.cute-mode.cute-dark-mode .card-actions,
+body.cute-mode.cute-dark-mode .target-summary,
+body.cute-mode.cute-dark-mode .target-meta,
+body.cute-mode.cute-dark-mode .target-intel,
+body.cute-mode.cute-dark-mode .perk-list,
+body.cute-mode.cute-dark-mode .lore-row {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .card,
+body.cute-mode.cute-dark-mode .target,
+body.cute-mode.cute-dark-mode .target-reveal,
+body.cute-mode.cute-dark-mode .result-card {
+    background-color: var(--cute-dark-panel) !important;
+    background-image: radial-gradient(circle at 50% 0%, rgba(255,155,214,.16), transparent 52%), linear-gradient(180deg, #130a19 0%, #0b0913 54%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: 0 12px 24px rgba(0,0,0,.28), 0 0 16px rgba(255,155,214,.10) !important;
+    overflow: hidden !important;
+}
+body.cute-mode.cute-dark-mode .card-top,
+body.cute-mode.cute-dark-mode .portrait,
+body.cute-mode.cute-dark-mode .result-portrait,
+body.cute-mode.cute-dark-mode .result-portrait img,
+body.cute-mode.cute-dark-mode .target-reveal img {
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode .portrait {
+    background: radial-gradient(circle at 50% 48%, rgba(169,223,255,.13), transparent 44%), radial-gradient(circle at 50% 60%, rgba(255,155,214,.18), transparent 55%) !important;
+    border-color: rgba(169,223,255,.18) !important;
+}
+body.cute-mode.cute-dark-mode .portrait img,
+body.cute-mode.cute-dark-mode .card img {
+    filter: none !important;
+}
+
+body.cute-mode.cute-dark-mode .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .from-row > span,
+body.cute-mode.cute-dark-mode .from-row > a,
+body.cute-mode.cute-dark-mode .target-intel .intel-row > span:not(.perk-list):not(.lore-row) {
+    background: rgba(6, 5, 12, .54) !important;
+    background-image: none !important;
+    border: 1px solid rgba(169,223,255,.16) !important;
+    color: var(--cute-dark-blue) !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode button,
+body.cute-mode.cute-dark-mode .btn,
+body.cute-mode.cute-dark-mode .chip,
+body.cute-mode.cute-dark-mode .card-action,
+body.cute-mode.cute-dark-mode .question-elim-toggle,
+body.cute-mode.cute-dark-mode .question-log-entry .log-control,
+body.cute-mode.cute-dark-mode .log-step-btn,
+body.cute-mode.cute-dark-mode .custom-unlock-btn,
+body.cute-mode.cute-dark-mode .hard-mode-btn,
+body.cute-mode.cute-dark-mode .search-clear-btn,
+body.cute-mode.cute-dark-mode .restore-overlay,
+body.cute-mode.cute-dark-mode .lore,
+body.cute-mode.cute-dark-mode #howToBtn,
+body.cute-mode.cute-dark-mode #yesBtn,
+body.cute-mode.cute-dark-mode #noBtn,
+body.cute-mode.cute-dark-mode #newGameBtn,
+body.cute-mode.cute-dark-mode #rollCharacterBtn,
+body.cute-mode.cute-dark-mode #minimizeTargetBtn,
+body.cute-mode.cute-dark-mode #undoBtn,
+body.cute-mode.cute-dark-mode #questionUndoBtn,
+body.cute-mode.cute-dark-mode #actionUndoBtn {
+    background-color: #0a0914 !important;
+    background-image: linear-gradient(180deg, #151020 0%, #0a0914 58%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-blue) !important;
+    color: var(--cute-dark-blue) !important;
+    box-shadow: 0 8px 14px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.06) !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #noBtn,
+body.cute-mode.cute-dark-mode .btn.no,
+body.cute-mode.cute-dark-mode .btn.danger,
+body.cute-mode.cute-dark-mode .chip.danger,
+body.cute-mode.cute-dark-mode .card-action.guess,
+body.cute-mode.cute-dark-mode .chip.active,
+body.cute-mode.cute-dark-mode .question-elim-toggle.active {
+    background-image: linear-gradient(180deg, #1a0b1b 0%, #130916 58%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-pink) !important;
+}
+body.cute-mode.cute-dark-mode #yesBtn,
+body.cute-mode.cute-dark-mode .btn.good,
+body.cute-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode .card-action.eliminate {
+    background-image: linear-gradient(180deg, #071923 0%, #0a111d 58%, #120a19 100%) !important;
+    border-color: var(--cute-dark-border-blue) !important;
+    color: var(--cute-dark-blue) !important;
+}
+body.cute-mode.cute-dark-mode button:hover,
+body.cute-mode.cute-dark-mode .btn:hover,
+body.cute-mode.cute-dark-mode .chip:hover,
+body.cute-mode.cute-dark-mode .card-action:hover,
+body.cute-mode.cute-dark-mode .question-elim-toggle:hover,
+body.cute-mode.cute-dark-mode .lore:hover {
+    background-image: linear-gradient(180deg, #1a1024 0%, #10111f 58%, #082031 100%) !important;
+    border-color: rgba(255,155,214,.78) !important;
+    color: var(--cute-dark-pink) !important;
+}
+
+body.cute-mode.cute-dark-mode input,
+body.cute-mode.cute-dark-mode textarea,
+body.cute-mode.cute-dark-mode select,
+body.cute-mode.cute-dark-mode #searchInput,
+body.cute-mode.cute-dark-mode #questionSelect,
+body.cute-mode.cute-dark-mode #detailInput,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-button,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-button,
+body.cute-mode.cute-dark-mode .meow-custom-select-button {
+    background-color: #080711 !important;
+    background-image: linear-gradient(180deg, #10101c 0%, #080711 58%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-blue) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 8px 16px rgba(0,0,0,.18) !important;
+}
+body.cute-mode.cute-dark-mode input::placeholder,
+body.cute-mode.cute-dark-mode textarea::placeholder,
+body.cute-mode.cute-dark-mode .meow-custom-select-button .placeholder,
+body.cute-mode.cute-dark-mode .empty-question-placeholder {
+    color: rgba(169,223,255,.72) !important;
+}
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list,
+body.cute-mode.cute-dark-mode .meow-custom-select-list,
+body.cute-mode.cute-dark-mode .search-suggestions {
+    background-color: #080711 !important;
+    background-image: linear-gradient(180deg, #10101c 0%, #080711 58%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    box-shadow: 0 18px 34px rgba(0,0,0,.32) !important;
+}
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-option,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-option,
+body.cute-mode.cute-dark-mode .meow-custom-select-option,
+body.cute-mode.cute-dark-mode .search-suggestion {
+    background: transparent !important;
+    border-color: rgba(255,155,214,.22) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-option:hover,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-option[aria-selected="true"],
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-option:hover,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-option[aria-selected="true"],
+body.cute-mode.cute-dark-mode .meow-custom-select-option:hover,
+body.cute-mode.cute-dark-mode .meow-custom-select-option[aria-selected="true"],
+body.cute-mode.cute-dark-mode .search-suggestion:hover {
+    background: rgba(255,155,214,.16) !important;
+    color: var(--cute-dark-pink) !important;
+}
+body.cute-mode.cute-dark-mode select option,
+body.cute-mode.cute-dark-mode select optgroup,
+body.cute-mode.cute-dark-mode #questionSelect option,
+body.cute-mode.cute-dark-mode #questionSelect optgroup {
+    background: #080711 !important;
+    color: var(--cute-dark-text) !important;
+}
+
+body.cute-mode.cute-dark-mode #answerBox,
+body.cute-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode #actionLog,
+body.cute-mode.cute-dark-mode .empty-board,
+body.cute-mode.cute-dark-mode .question-elim-empty,
+body.cute-mode.cute-dark-mode .log-item,
+body.cute-mode.cute-dark-mode .question-log-entry,
+body.cute-mode.cute-dark-mode .action-log-entry,
+body.cute-mode.cute-dark-mode .question-log-entry .log-copy,
+body.cute-mode.cute-dark-mode .question-log-entry .log-control {
+    background-color: var(--cute-dark-cell) !important;
+    background-image: linear-gradient(180deg, rgba(15,12,24,.96), rgba(7,18,26,.92)) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode #actionLog {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+body.cute-mode.cute-dark-mode .tag,
+body.cute-mode.cute-dark-mode .pill,
+body.cute-mode.cute-dark-mode .perk-chip,
+body.cute-mode.cute-dark-mode .card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal .perk-chip,
+body.cute-mode.cute-dark-mode .card .perk-list .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal .perk-list .perk-chip,
+body.cute-mode.cute-dark-mode .gender-tag,
+body.cute-mode.cute-dark-mode .gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .gender-tag.gender-male,
+body.cute-mode.cute-dark-mode .tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-male,
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-unknown {
+    background-color: #0b0913 !important;
+    background-image: linear-gradient(180deg, #151020 0%, #0b0913 100%) !important;
+    border: 1px solid rgba(169,223,255,.36) !important;
+    color: var(--cute-dark-blue) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode .gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-female,
+body.cute-mode.cute-dark-mode .card.survivor .tag,
+body.cute-mode.cute-dark-mode .card.survivor .perk-chip {
+    border-color: rgba(255,155,214,.42) !important;
+    color: var(--cute-dark-pink) !important;
+}
+body.cute-mode.cute-dark-mode .perk-chip::before,
+body.cute-mode.cute-dark-mode .perk-chip::after {
+    content: none !important;
+    display: none !important;
+}
+
+body.cute-mode.cute-dark-mode .perk-detail-card,
+body.cute-mode.cute-dark-mode .perk-detail-copy,
+body.cute-mode.cute-dark-mode .official-perk-text,
+body.cute-mode.cute-dark-mode .perk-dialog-body,
+body.cute-mode.cute-dark-mode .perk-modal-body,
+body.cute-mode.cute-dark-mode .perk-window {
+    background-color: #0b0913 !important;
+    background-image: linear-gradient(180deg, #120a19 0%, #0b0913 58%, #071722 100%) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle,
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle.active {
+    background-color: #071923 !important;
+    background-image: linear-gradient(135deg, #071923, #0d2635 48%, #180d21 100%) !important;
+    border-color: rgba(169, 223, 255, .78) !important;
+    color: var(--cute-dark-blue) !important;
+}
+
+body.cute-mode.cute-dark-mode {
+    --cute-dark-bg: #05040a;
+    --cute-dark-panel: #0b0913;
+    --cute-dark-panel-2: #100b19;
+    --cute-dark-cell: #0a0812;
+    --cute-dark-cell-2: #111020;
+    --cute-dark-purple: #d7b6ff;
+    --cute-dark-pink: #ff9bd6;
+    --cute-dark-blue: #a9dfff;
+    --cute-dark-text: #c8efff;
+    --cute-dark-border-pink: rgba(255, 155, 214, .62);
+    --cute-dark-border-blue: rgba(169, 223, 255, .56);
+}
+
+body.cute-mode.cute-dark-mode .controls,
+body.cute-mode.cute-dark-mode .lookup,
+body.cute-mode.cute-dark-mode #searchField,
+body.cute-mode.cute-dark-mode #questionLabel,
+body.cute-mode.cute-dark-mode #detailField,
+body.cute-mode.cute-dark-mode #newGameCta,
+body.cute-mode.cute-dark-mode .game-cta,
+body.cute-mode.cute-dark-mode .search-shell,
+body.cute-mode.cute-dark-mode .difficulty-group,
+body.cute-mode.cute-dark-mode .custom-unlock-group,
+body.cute-mode.cute-dark-mode #mode-iboxBtns {
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .controls {
+    background-color: rgba(11, 9, 19, .96) !important;
+    background-image: linear-gradient(180deg, #100b19 0%, #0b0913 100%) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    overflow: visible !important;
+}
+
+body.cute-mode.cute-dark-mode input,
+body.cute-mode.cute-dark-mode textarea,
+body.cute-mode.cute-dark-mode select,
+body.cute-mode.cute-dark-mode #searchInput,
+body.cute-mode.cute-dark-mode #questionSelect,
+body.cute-mode.cute-dark-mode #detailInput,
+body.cute-mode.cute-dark-mode #roleSelect,
+body.cute-mode.cute-dark-mode #speedSelect,
+body.cute-mode.cute-dark-mode #licenseSelect,
+body.cute-mode.cute-dark-mode #countrySelect,
+body.cute-mode.cute-dark-mode #genderSelect,
+body.cute-mode.cute-dark-mode #hairSelect,
+body.cute-mode.cute-dark-mode #ethnicitySelect,
+body.cute-mode.cute-dark-mode #yearSelect,
+body.cute-mode.cute-dark-mode .meow-custom-select-button {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    background-color: var(--cute-dark-cell) !important;
+    background-image: none !important;
+    border: 2px solid var(--cute-dark-border-blue) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 8px 14px rgba(0,0,0,.18) !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode input::placeholder,
+body.cute-mode.cute-dark-mode textarea::placeholder,
+body.cute-mode.cute-dark-mode .meow-custom-select-value,
+body.cute-mode.cute-dark-mode .meow-custom-select-button .placeholder,
+body.cute-mode.cute-dark-mode .empty-question-placeholder {
+    color: rgba(199, 238, 255, .86) !important;
+    -webkit-text-fill-color: rgba(199, 238, 255, .86) !important;
+}
+
+body.cute-mode.cute-dark-mode .meow-custom-select-list,
+body.cute-mode.cute-dark-mode .search-suggestions,
+body.cute-mode.cute-dark-mode .custom-unlock-popover,
+body.cute-mode.cute-dark-mode .howto-popover,
+body.cute-mode.cute-dark-mode .question-elim-popover,
+body.cute-mode.cute-dark-mode .question-elim-group,
+body.cute-mode.cute-dark-mode .question-elim-column,
+body.cute-mode.cute-dark-mode .question-elim-page {
+    background-color: #0b0913 !important;
+    background-image: none !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: 0 18px 34px rgba(0,0,0,.34) !important;
+}
+body.cute-mode.cute-dark-mode .meow-custom-select-group,
+body.cute-mode.cute-dark-mode .meow-custom-select-group.question-manual,
+body.cute-mode.cute-dark-mode .meow-custom-select-group.question-general,
+body.cute-mode.cute-dark-mode .meow-custom-select-group.question-base,
+body.cute-mode.cute-dark-mode .meow-custom-select-group.question-killer,
+body.cute-mode.cute-dark-mode .meow-custom-select-group.question-survivor,
+body.cute-mode.cute-dark-mode .question-elim-group h4,
+body.cute-mode.cute-dark-mode .question-elim-column h3 {
+    background-color: #141020 !important;
+    background-image: none !important;
+    border: 1px solid rgba(215, 182, 255, .38) !important;
+    border-radius: 14px !important;
+    color: var(--cute-dark-purple) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode .meow-custom-select-option,
+body.cute-mode.cute-dark-mode .search-suggestion,
+body.cute-mode.cute-dark-mode .question-elim-group li,
+body.cute-mode.cute-dark-mode .question-elim-group p {
+    background-color: #0a0812 !important;
+    background-image: none !important;
+    border-color: rgba(169, 223, 255, .22) !important;
+    color: var(--cute-dark-text) !important;
+}
+body.cute-mode.cute-dark-mode .meow-custom-select-option:hover,
+body.cute-mode.cute-dark-mode .meow-custom-select-option[aria-selected="true"],
+body.cute-mode.cute-dark-mode .search-suggestion:hover {
+    background-color: #151020 !important;
+    background-image: none !important;
+    color: var(--cute-dark-pink) !important;
+}
+body.cute-mode.cute-dark-mode select option,
+body.cute-mode.cute-dark-mode select optgroup,
+body.cute-mode.cute-dark-mode #questionSelect option,
+body.cute-mode.cute-dark-mode #questionSelect optgroup {
+    background-color: #080711 !important;
+    background-image: none !important;
+    color: var(--cute-dark-text) !important;
+}
+
+body.cute-mode.cute-dark-mode button,
+body.cute-mode.cute-dark-mode .btn,
+body.cute-mode.cute-dark-mode .chip,
+body.cute-mode.cute-dark-mode .card-action,
+body.cute-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode .card-action.eliminate,
+body.cute-mode.cute-dark-mode .question-elim-toggle,
+body.cute-mode.cute-dark-mode .log-step-btn,
+body.cute-mode.cute-dark-mode .custom-unlock-btn,
+body.cute-mode.cute-dark-mode .hard-mode-btn,
+body.cute-mode.cute-dark-mode .howto-btn,
+body.cute-mode.cute-dark-mode #howToBtn,
+body.cute-mode.cute-dark-mode #noBtn,
+body.cute-mode.cute-dark-mode #newGameBtn,
+body.cute-mode.cute-dark-mode #rollCharacterBtn,
+body.cute-mode.cute-dark-mode #minimizeTargetBtn,
+body.cute-mode.cute-dark-mode #undoBtn,
+body.cute-mode.cute-dark-mode #questionUndoBtn,
+body.cute-mode.cute-dark-mode #actionUndoBtn,
+body.cute-mode.cute-dark-mode .lore {
+    background-color: #0a0812 !important;
+    background-image: none !important;
+    border-color: var(--cute-dark-border-blue) !important;
+    color: var(--cute-dark-blue) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 7px 12px rgba(0,0,0,.20) !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode .btn.no,
+body.cute-mode.cute-dark-mode #noBtn,
+body.cute-mode.cute-dark-mode .btn.danger,
+body.cute-mode.cute-dark-mode .chip.danger,
+body.cute-mode.cute-dark-mode .card-action.guess {
+    background-color: #140914 !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-pink) !important;
+}
+body.cute-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode .card-action.eliminate,
+body.cute-mode.cute-dark-mode .btn.good,
+body.cute-mode.cute-dark-mode #yesBtn {
+    background-color: #07121b !important;
+    border-color: var(--cute-dark-border-blue) !important;
+    color: var(--cute-dark-blue) !important;
+}
+body.cute-mode.cute-dark-mode button:hover,
+body.cute-mode.cute-dark-mode .btn:hover,
+body.cute-mode.cute-dark-mode .chip:hover,
+body.cute-mode.cute-dark-mode .card-action:hover,
+body.cute-mode.cute-dark-mode .lore:hover {
+    background-color: #171025 !important;
+    background-image: none !important;
+    color: var(--cute-dark-pink) !important;
+    border-color: var(--cute-dark-border-pink) !important;
+}
+
+body.cute-mode.cute-dark-mode .card,
+body.cute-mode.cute-dark-mode .card.killer,
+body.cute-mode.cute-dark-mode .card.survivor,
+body.cute-mode.cute-dark-mode .gender-female-card,
+body.cute-mode.cute-dark-mode .gender-male-card,
+body.cute-mode.cute-dark-mode .gender-both-card,
+body.cute-mode.cute-dark-mode .gender-unknown-card,
+body.cute-mode.cute-dark-mode .target,
+body.cute-mode.cute-dark-mode #targetBox,
+body.cute-mode.cute-dark-mode .target-reveal,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card,
+body.cute-mode.cute-dark-mode .result-card {
+    background-color: #0b0913 !important;
+    background-image: none !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: 0 12px 24px rgba(0,0,0,.28), 0 0 18px rgba(255,155,214,.08) !important;
+}
+body.cute-mode.cute-dark-mode .card-top,
+body.cute-mode.cute-dark-mode .portrait,
+body.cute-mode.cute-dark-mode .portrait.has-image,
+body.cute-mode.cute-dark-mode .target-reveal,
+body.cute-mode.cute-dark-mode .result-portrait,
+body.cute-mode.cute-dark-mode .target-reveal img,
+body.cute-mode.cute-dark-mode .result-portrait img,
+body.cute-mode.cute-dark-mode .question-mark {
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: rgba(169,223,255,.16) !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode .portrait img,
+body.cute-mode.cute-dark-mode .card img {
+    background: transparent !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+
+body.cute-mode.cute-dark-mode .tag,
+body.cute-mode.cute-dark-mode .pill,
+body.cute-mode.cute-dark-mode .speed-tag,
+body.cute-mode.cute-dark-mode .hair-tag,
+body.cute-mode.cute-dark-mode .gender-tag,
+body.cute-mode.cute-dark-mode .tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-male,
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-male,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-unknown,
+body.cute-mode.cute-dark-mode .perk-chip,
+body.cute-mode.cute-dark-mode .perk-list span {
+    background-color: #0a0812 !important;
+    background-image: none !important;
+    border: 1px solid rgba(169,223,255,.34) !important;
+    color: var(--cute-dark-blue) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+}
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-unknown {
+    border-color: rgba(215,182,255,.46) !important;
+    color: var(--cute-dark-purple) !important;
+}
+body.cute-mode.cute-dark-mode .tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .card.survivor .tag,
+body.cute-mode.cute-dark-mode .card.survivor .perk-chip {
+    border-color: rgba(255,155,214,.46) !important;
+    color: var(--cute-dark-pink) !important;
+}
+body.cute-mode.cute-dark-mode .alt-letter,
+body.cute-mode.cute-dark-mode .alt-letter-pink,
+body.cute-mode.cute-dark-mode .alt-letter-blue {
+    color: var(--cute-dark-purple) !important;
+    -webkit-text-fill-color: var(--cute-dark-purple) !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .intel-row,
+body.cute-mode.cute-dark-mode .from-row,
+body.cute-mode.cute-dark-mode .meta-row,
+body.cute-mode.cute-dark-mode .target-intel .intel-row {
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode .intel-row b,
+body.cute-mode.cute-dark-mode .from-row b,
+body.cute-mode.cute-dark-mode .target-intel .intel-row b {
+    color: var(--cute-dark-purple) !important;
+    -webkit-text-fill-color: var(--cute-dark-purple) !important;
+}
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row b,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row b,
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row span,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row span,
+body.cute-mode.cute-dark-mode .gender-both-card .from-link,
+body.cute-mode.cute-dark-mode .gender-unknown-card .from-link,
+body.cute-mode.cute-dark-mode .gender-both-card .from-pill,
+body.cute-mode.cute-dark-mode .gender-unknown-card .from-pill,
+body.cute-mode.cute-dark-mode .gender-both-card .lore,
+body.cute-mode.cute-dark-mode .gender-unknown-card .lore,
+body.cute-mode.cute-dark-mode .gender-both-card .perk-chip,
+body.cute-mode.cute-dark-mode .gender-unknown-card .perk-chip {
+    color: var(--cute-dark-purple) !important;
+    -webkit-text-fill-color: var(--cute-dark-purple) !important;
+    border-color: rgba(215,182,255,.40) !important;
+}
+body.cute-mode.cute-dark-mode .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .from-row > span,
+body.cute-mode.cute-dark-mode .from-row > a,
+body.cute-mode.cute-dark-mode .target-intel .intel-row > span:not(.perk-list):not(.lore-row) {
+    background-color: rgba(10, 8, 18, .72) !important;
+    background-image: none !important;
+    border: 1px solid rgba(215,182,255,.22) !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode #answerBox,
+body.cute-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode #actionLog,
+body.cute-mode.cute-dark-mode .log-item,
+body.cute-mode.cute-dark-mode .log-item > span,
+body.cute-mode.cute-dark-mode .question-log-entry,
+body.cute-mode.cute-dark-mode .question-log-entry .log-copy,
+body.cute-mode.cute-dark-mode .question-log-entry .log-control,
+body.cute-mode.cute-dark-mode .action-log-entry,
+body.cute-mode.cute-dark-mode .empty-board,
+body.cute-mode.cute-dark-mode .question-elim-empty,
+body.cute-mode.cute-dark-mode .target-summary {
+    background-color: #0a0812 !important;
+    background-image: none !important;
+    border-color: var(--cute-dark-border-pink) !important;
+    color: var(--cute-dark-text) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode #actionLog {
+    background: transparent !important;
+    border: 0 !important;
+}
+body.cute-mode.cute-dark-mode .log-item .pill,
+body.cute-mode.cute-dark-mode .last-action-answer-pill,
+body.cute-mode.cute-dark-mode .log-step-btn {
+    background-color: #141020 !important;
+    background-image: none !important;
+    color: var(--cute-dark-purple) !important;
+    border-color: rgba(215,182,255,.44) !important;
+}
+
+body.cute-mode.cute-dark-mode .target .lore,
+body.cute-mode.cute-dark-mode #targetBox .lore,
+body.cute-mode.cute-dark-mode .target-reveal .lore,
+body.cute-mode.cute-dark-mode .perk-window,
+body.cute-mode.cute-dark-mode .perk-dialog,
+body.cute-mode.cute-dark-mode .perk-detail-card,
+body.cute-mode.cute-dark-mode .perk-detail-copy,
+body.cute-mode.cute-dark-mode .official-perk-text,
+body.cute-mode.cute-dark-mode .official-perk-text p,
+body.cute-mode.cute-dark-mode .official-perk-text li,
+body.cute-mode.cute-dark-mode .perk-detail-meta,
+body.cute-mode.cute-dark-mode .perk-detail-meta b {
+    background-color: #0a0812 !important;
+    background-image: none !important;
+    border-color: rgba(215,182,255,.36) !important;
+    color: var(--cute-dark-purple) !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode {
+    --cute-dark-flat-bg: #05040a;
+    --cute-dark-flat-panel: #0b0913;
+    --cute-dark-flat-cell: #0a0812;
+    --cute-dark-flat-cell-2: #141020;
+    --cute-dark-flat-blue: #a9dfff;
+    --cute-dark-flat-pink: #ff9bd6;
+    --cute-dark-flat-purple: #d7b6ff;
+    --cute-dark-flat-text: #c8efff;
+}
+
+body.cute-mode.cute-dark-mode .card .portrait::before,
+body.cute-mode.cute-dark-mode .card .portrait::after,
+body.cute-mode.cute-dark-mode .card.gender-female-card .portrait::before,
+body.cute-mode.cute-dark-mode .card.gender-female-card .portrait::after,
+body.cute-mode.cute-dark-mode .card.gender-male-card .portrait::before,
+body.cute-mode.cute-dark-mode .card.gender-male-card .portrait::after,
+body.cute-mode.cute-dark-mode .card.gender-both-card .portrait::before,
+body.cute-mode.cute-dark-mode .card.gender-both-card .portrait::after,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .portrait::before,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait::before,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .result-portrait::before,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .result-portrait::before,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .result-portrait::before,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .result-portrait::before,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .search-suggestion::before,
+body.cute-mode.cute-dark-mode .search-suggestion::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    opacity: 0 !important;
+}
+
+body.cute-mode.cute-dark-mode .card .portrait,
+body.cute-mode.cute-dark-mode .card.gender-female-card .portrait,
+body.cute-mode.cute-dark-mode .card.gender-male-card .portrait,
+body.cute-mode.cute-dark-mode .card.gender-both-card .portrait,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .portrait,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .result-portrait,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .result-portrait,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .result-portrait,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .result-portrait {
+    background: #100b19 !important;
+    background-image: radial-gradient(circle at 50% 45%, rgba(169, 223, 255, .10), transparent 54%) !important;
+    border: 1px solid rgba(169, 223, 255, .18) !important;
+    box-shadow: inset 0 0 26px rgba(0,0,0,.22) !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode .card .portrait img,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait img,
+body.cute-mode.cute-dark-mode .search-suggestion img {
+    filter: none !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-group,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-manual,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-general,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-base,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-killer,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-survivor,
+body.cute-mode.cute-dark-mode #questionSelect optgroup,
+body.cute-mode.cute-dark-mode #questionSelect optgroup.question-manual,
+body.cute-mode.cute-dark-mode #questionSelect optgroup.question-general,
+body.cute-mode.cute-dark-mode #questionSelect optgroup.question-base,
+body.cute-mode.cute-dark-mode #questionSelect optgroup.question-killer,
+body.cute-mode.cute-dark-mode #questionSelect optgroup.question-survivor {
+    background: #141020 !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-purple) !important;
+    border: 1px solid rgba(215,182,255,.38) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-option,
+body.cute-mode.cute-dark-mode #questionSelect option {
+    background: #0a0812 !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-text) !important;
+}
+
+body.cute-mode.cute-dark-mode #log .log-item,
+body.cute-mode.cute-dark-mode #actionLog .log-item,
+body.cute-mode.cute-dark-mode #log .log-item *,
+body.cute-mode.cute-dark-mode #actionLog .log-item *,
+body.cute-mode.cute-dark-mode #log .log-item > span,
+body.cute-mode.cute-dark-mode #actionLog .log-item > span,
+body.cute-mode.cute-dark-mode #log .log-item .pill,
+body.cute-mode.cute-dark-mode #actionLog .log-item .pill {
+    background: #0a0812 !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-text) !important;
+    border-color: rgba(215,182,255,.40) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: currentColor !important;
+}
+body.cute-mode.cute-dark-mode #log .log-item,
+body.cute-mode.cute-dark-mode #actionLog .log-item {
+    border: 1px solid rgba(255,155,214,.44) !important;
+    border-radius: 18px !important;
+}
+body.cute-mode.cute-dark-mode #log .log-item .pill,
+body.cute-mode.cute-dark-mode #actionLog .log-item .pill {
+    display: inline-flex !important;
+    background: #141020 !important;
+    color: var(--cute-dark-flat-purple) !important;
+}
+
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn.active,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn:hover,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn:focus-visible,
+body.cute-mode.cute-dark-mode .hard-mode-btn.active {
+    background: #140914 !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-pink) !important;
+    border-color: rgba(255,155,214,.68) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 7px 12px rgba(0,0,0,.22) !important;
+}
+body.cute-mode.cute-dark-mode .card .card-action.cross,
+body.cute-mode.cute-dark-mode .card.gender-female-card .card-action.cross,
+body.cute-mode.cute-dark-mode .card.gender-male-card .card-action.cross,
+body.cute-mode.cute-dark-mode .card.gender-both-card .card-action.cross,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .card-action.cross,
+body.cute-mode.cute-dark-mode .card .card-action.eliminate,
+body.cute-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode .card-action.eliminate {
+    background: #07121b !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-blue) !important;
+    border-color: rgba(169,223,255,.62) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.035), 0 6px 11px rgba(0,0,0,.22) !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: var(--cute-dark-flat-blue) !important;
+}
+body.cute-mode.cute-dark-mode .card .card-action.cross:hover,
+body.cute-mode.cute-dark-mode .card .card-action.eliminate:hover {
+    background: #101827 !important;
+    color: var(--cute-dark-flat-pink) !important;
+    -webkit-text-fill-color: var(--cute-dark-flat-pink) !important;
+    border-color: rgba(255,155,214,.72) !important;
+}
+
+body.cute-mode.cute-dark-mode .stats-wrap,
+body.cute-mode.cute-dark-mode .howto-group,
+body.cute-mode.cute-dark-mode .topbar .howto-group,
+body.cute-mode.cute-dark-mode .stat,
+body.cute-mode.cute-dark-mode .topbar .howto-btn,
+body.cute-mode.cute-dark-mode .topbar .howto-btn.chip,
+body.cute-mode.cute-dark-mode .howto-btn {
+    background: #0b0913 !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-blue) !important;
+    border-color: rgba(169,223,255,.45) !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+body.cute-mode.cute-dark-mode .stat::before,
+body.cute-mode.cute-dark-mode .stat::after,
+body.cute-mode.cute-dark-mode .topbar .howto-btn::before,
+body.cute-mode.cute-dark-mode .topbar .howto-btn::after,
+body.cute-mode.cute-dark-mode .howto-btn::before,
+body.cute-mode.cute-dark-mode .howto-btn::after,
+body.cute-mode.cute-dark-mode .howto-group::before,
+body.cute-mode.cute-dark-mode .howto-group::after,
+body.cute-mode.cute-dark-mode .stats-wrap::before,
+body.cute-mode.cute-dark-mode .stats-wrap::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode .stat strong,
+body.cute-mode.cute-dark-mode .stat span {
+    color: var(--cute-dark-flat-pink) !important;
+    -webkit-text-fill-color: currentColor !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .lookup,
+body.cute-mode.cute-dark-mode #searchField,
+body.cute-mode.cute-dark-mode #questionLabel,
+body.cute-mode.cute-dark-mode #detailField,
+body.cute-mode.cute-dark-mode .game-cta,
+body.cute-mode.cute-dark-mode #newGameCta,
+body.cute-mode.cute-dark-mode .control-cell,
+body.cute-mode.cute-dark-mode .field,
+body.cute-mode.cute-dark-mode .field-shell {
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+}
+body.cute-mode.cute-dark-mode #searchInput,
+body.cute-mode.cute-dark-mode #questionSelect,
+body.cute-mode.cute-dark-mode #detailInput,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-button,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-button,
+body.cute-mode.cute-dark-mode #newGameBtn {
+    background: #0a0812 !important;
+    background-image: none !important;
+    border-color: rgba(169,223,255,.58) !important;
+    color: var(--cute-dark-flat-text) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 7px 12px rgba(0,0,0,.20) !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-both-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.gender-both-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .meta .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .meta .tag,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-both-card .tag,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-unknown-card .tag {
+    background: #0a0812 !important;
+    background-image: none !important;
+    color: var(--cute-dark-flat-purple) !important;
+    border: 1px solid rgba(215,182,255,.46) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: var(--cute-dark-flat-purple) !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-both-card .alt-letter,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .alt-letter,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .alt-letter,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .alt-letter {
+    color: var(--cute-dark-flat-purple) !important;
+    -webkit-text-fill-color: var(--cute-dark-flat-purple) !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode {
+    --cdm-bg: #05040a;
+    --cdm-panel: #0a0812;
+    --cdm-cell: #0d0a16;
+    --cdm-cell-2: #151020;
+    --cdm-blue: #a9dfff;
+    --cdm-pink: #ff9bd6;
+    --cdm-purple: #d7b6ff;
+    --cdm-border-blue: rgba(169,223,255,.50);
+    --cdm-border-pink: rgba(255,155,214,.52);
+    --cdm-border-purple: rgba(215,182,255,.42);
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats-wrap,
+body.cute-mode.cute-dark-mode.cute-dark-mode .cute-credit-row,
+body.cute-mode.cute-dark-mode.cute-dark-mode #howToGroup,
+body.cute-mode.cute-dark-mode.cute-dark-mode .howto-group,
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats.side-stats,
+body.cute-mode.cute-dark-mode.cute-dark-mode .side-stats {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    filter: none !important;
+    overflow: visible !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats-wrap::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats-wrap::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .cute-credit-row::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .cute-credit-row::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode #howToGroup::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode #howToGroup::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .howto-group::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .howto-group::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats.side-stats::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats.side-stats::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .side-stats::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .side-stats::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    opacity: 0 !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #howToBtn,
+body.cute-mode.cute-dark-mode.cute-dark-mode .topbar #howToBtn,
+body.cute-mode.cute-dark-mode.cute-dark-mode .topbar .howto-btn,
+body.cute-mode.cute-dark-mode.cute-dark-mode .topbar .howto-btn.chip {
+    background: #120a18 !important;
+    background-image: none !important;
+    border: 1px solid var(--cdm-border-pink) !important;
+    color: var(--cdm-pink) !important;
+    -webkit-text-fill-color: var(--cdm-pink) !important;
+    box-shadow: 0 0 14px rgba(255,155,214,.16), inset 0 1px 0 rgba(255,255,255,.04) !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .stat,
+body.cute-mode.cute-dark-mode.cute-dark-mode .side-stats .stat,
+body.cute-mode.cute-dark-mode.cute-dark-mode .stats.side-stats .stat {
+    background: #0d0a16 !important;
+    background-color: #0d0a16 !important;
+    background-image: none !important;
+    border: 1px solid var(--cdm-border-pink) !important;
+    color: var(--cdm-blue) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04) !important;
+    filter: none !important;
+    overflow: hidden !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .stat strong,
+body.cute-mode.cute-dark-mode.cute-dark-mode .stat span {
+    color: var(--cdm-pink) !important;
+    -webkit-text-fill-color: currentColor !important;
+    background: transparent !important;
+    background-image: none !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode .question-log-panel .panel-body,
+body.cute-mode.cute-dark-mode.cute-dark-mode .undo-log-panel .panel-body,
+body.cute-mode.cute-dark-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode.cute-dark-mode #actionLog {
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #log > .log-item,
+body.cute-mode.cute-dark-mode.cute-dark-mode #actionLog > .log-item,
+body.cute-mode.cute-dark-mode.cute-dark-mode #log > .log-item span,
+body.cute-mode.cute-dark-mode.cute-dark-mode #actionLog > .log-item span,
+body.cute-mode.cute-dark-mode.cute-dark-mode #log > .log-item .pill,
+body.cute-mode.cute-dark-mode.cute-dark-mode #actionLog > .log-item .pill,
+body.cute-mode.cute-dark-mode.cute-dark-mode .question-log-entry,
+body.cute-mode.cute-dark-mode.cute-dark-mode .action-log-entry,
+body.cute-mode.cute-dark-mode.cute-dark-mode .question-log-entry .log-copy,
+body.cute-mode.cute-dark-mode.cute-dark-mode .question-log-entry .log-control,
+body.cute-mode.cute-dark-mode.cute-dark-mode .action-log-entry .log-copy {
+    background: #0a0812 !important;
+    background-color: #0a0812 !important;
+    background-image: none !important;
+    border-color: var(--cdm-border-purple) !important;
+    color: var(--cdm-blue) !important;
+    -webkit-text-fill-color: currentColor !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #log > .log-item,
+body.cute-mode.cute-dark-mode.cute-dark-mode #actionLog > .log-item {
+    border: 1px solid var(--cdm-border-pink) !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #log > .log-item .pill,
+body.cute-mode.cute-dark-mode.cute-dark-mode #actionLog > .log-item .pill {
+    background: #151020 !important;
+    color: var(--cdm-purple) !important;
+    border: 1px solid var(--cdm-border-purple) !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-list,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-listbox,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel [role="listbox"] {
+    background: #07060d !important;
+    background-image: none !important;
+    border-color: var(--cdm-border-pink) !important;
+    box-shadow: 0 18px 36px rgba(0,0,0,.35) !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel div.meow-custom-select-group,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-group,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-killer,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-survivor,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-general,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-base,
+body.cute-mode.cute-dark-mode.cute-dark-mode #questionLabel .meow-custom-select-group.question-manual {
+    background: #151020 !important;
+    background-color: #151020 !important;
+    background-image: none !important;
+    color: var(--cdm-purple) !important;
+    -webkit-text-fill-color: var(--cdm-purple) !important;
+    border-top: 1px solid var(--cdm-border-purple) !important;
+    border-bottom: 1px solid rgba(0,0,0,.55) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode .card-action.cross,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card .card-action.cross,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .card-action.cross,
+body.cute-mode.cute-dark-mode.cute-dark-mode .restore-overlay,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .restore-overlay,
+body.cute-mode.cute-dark-mode.cute-dark-mode .lore,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .lore,
+body.cute-mode.cute-dark-mode.cute-dark-mode #targetBox .lore,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .lore,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-chip,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .perk-chip,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-chip.perk-owner-female,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-chip.perk-owner-male,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-chip.perk-owner-both,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-chip.perk-owner-unknown {
+    background: #0b0a15 !important;
+    background-color: #0b0a15 !important;
+    background-image: none !important;
+    color: var(--cdm-blue) !important;
+    -webkit-text-fill-color: var(--cdm-blue) !important;
+    border: 1px solid var(--cdm-border-blue) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.035), 0 6px 12px rgba(0,0,0,.22) !important;
+    text-shadow: none !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .card-action.cross:hover,
+body.cute-mode.cute-dark-mode.cute-dark-mode .restore-overlay:hover,
+body.cute-mode.cute-dark-mode.cute-dark-mode .lore:hover,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-chip:hover {
+    background: #151020 !important;
+    color: var(--cdm-pink) !important;
+    -webkit-text-fill-color: var(--cdm-pink) !important;
+    border-color: var(--cdm-border-pink) !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .meta .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .meta-row .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .meta .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.eliminated .meta-row .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.gender-both-card .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target-reveal .tag,
+body.cute-mode.cute-dark-mode.cute-dark-mode .search-suggestion .tag {
+    background: #0b0a15 !important;
+    background-color: #0b0a15 !important;
+    background-image: none !important;
+    color: var(--cdm-purple) !important;
+    -webkit-text-fill-color: var(--cdm-purple) !important;
+    border: 1px solid var(--cdm-border-purple) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode .card-top,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .target-portrait,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .target-placeholder,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target-reveal .result-portrait,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card .portrait,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.gender-female-card .portrait,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.gender-male-card .portrait,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.gender-both-card .portrait,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card.gender-unknown-card .portrait {
+    background: #0b0913 !important;
+    background-color: #0b0913 !important;
+    background-image: none !important;
+    border-color: rgba(169,223,255,.18) !important;
+    box-shadow: inset 0 0 24px rgba(0,0,0,.32) !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .card-top::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card-top::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card .portrait::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .card .portrait::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .target-portrait::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .target-portrait::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .target-placeholder::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target .target-placeholder::after,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target-reveal .result-portrait::before,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target-reveal .result-portrait::after {
+    content: none !important;
+    display: none !important;
+    background: none !important;
+    background-image: none !important;
+    opacity: 0 !important;
+    box-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .card .portrait img,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target-reveal .result-portrait img,
+body.cute-mode.cute-dark-mode.cute-dark-mode .target img {
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkOverlay,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-overlay {
+    background: rgba(3,3,8,.46) !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkOverlay .perk-window,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-window,
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkDialog,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-dialog {
+    background: #07060d !important;
+    background-image: none !important;
+    border: 1px solid var(--cdm-border-pink) !important;
+    color: var(--cdm-blue) !important;
+    box-shadow: 0 18px 40px rgba(0,0,0,.50), 0 0 20px rgba(255,155,214,.14) !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkOverlay .panel-head,
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkOverlay .perk-dialog-head,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-window .panel-head,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-window .perk-dialog-head,
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkDialog .panel-head,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-dialog .panel-head,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-dialog-head {
+    background: #151020 !important;
+    background-color: #151020 !important;
+    background-image: none !important;
+    color: var(--cdm-pink) !important;
+    -webkit-text-fill-color: var(--cdm-pink) !important;
+    border-bottom: 1px solid var(--cdm-border-pink) !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode #perkOverlay .perk-dialog-text,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-window .perk-dialog-text,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-detail-card,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-detail-copy,
+body.cute-mode.cute-dark-mode.cute-dark-mode .perk-detail-meta,
+body.cute-mode.cute-dark-mode.cute-dark-mode .official-perk-text,
+body.cute-mode.cute-dark-mode.cute-dark-mode .official-perk-text * {
+    background: transparent !important;
+    background-image: none !important;
+    color: var(--cdm-purple) !important;
+    -webkit-text-fill-color: currentColor !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-overlay,
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-curtain,
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-scene {
+    background-color: transparent !important;
+    filter: none !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-charm,
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-petal,
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-elim-spark,
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-press-spark {
+    color: var(--cdm-pink) !important;
+    -webkit-text-fill-color: var(--cdm-pink) !important;
+    text-shadow: 0 0 10px rgba(255,155,214,.45) !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-charm.is-blue,
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-elim-spark:nth-child(3n),
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-press-spark:nth-child(3n) {
+    color: var(--cdm-blue) !important;
+    -webkit-text-fill-color: var(--cdm-blue) !important;
+}
+body.cute-mode.cute-dark-mode.cute-dark-mode .gw-cute-transform-charm.is-white {
+    color: var(--cdm-purple) !important;
+    -webkit-text-fill-color: var(--cdm-purple) !important;
+}
+
+body.cute-mode.cute-dark-mode .gw-cute-transform-cloud,
+body.cute-mode.cute-dark-mode .gw-cute-transform-cloud::before,
+body.cute-mode.cute-dark-mode .gw-cute-transform-cloud::after {
+    background: rgba(255,255,255,.72) !important;
+    background-image: linear-gradient(135deg, rgba(255,238,249,.84), rgba(221,246,255,.78)) !important;
+    box-shadow: 0 10px 22px rgba(255,155,214,.18), 0 0 22px rgba(157,222,255,.18) !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+body.cute-mode.cute-dark-mode .gw-cute-transform-charm,
+body.cute-mode.cute-dark-mode .gw-cute-transform-petal {
+    color: #ff9bd6 !important;
+    -webkit-text-fill-color: #ff9bd6 !important;
+    background: transparent !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+body.cute-mode.cute-dark-mode .gw-cute-transform-charm.is-blue,
+body.cute-mode.cute-dark-mode .gw-cute-transform-petal:nth-child(3n) {
+    color: #8bdcff !important;
+    -webkit-text-fill-color: #8bdcff !important;
+}
+body.cute-mode.cute-dark-mode .gw-cute-transform-charm.is-white {
+    color: #c78cff !important;
+    -webkit-text-fill-color: #c78cff !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-male-card,
+body.cute-mode.cute-dark-mode .card.gender-male-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-male-card .name,
+body.cute-mode.cute-dark-mode .card.gender-male-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-male-card .intel,
+body.cute-mode.cute-dark-mode .card.gender-male-card .intel *,
+body.cute-mode.cute-dark-mode .card.gender-male-card .meta,
+body.cute-mode.cute-dark-mode .card.gender-male-card .meta *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card * {
+    color: #68caff !important;
+    -webkit-text-fill-color: currentColor !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-female-card,
+body.cute-mode.cute-dark-mode .card.gender-female-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-female-card .name,
+body.cute-mode.cute-dark-mode .card.gender-female-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-female-card .intel,
+body.cute-mode.cute-dark-mode .card.gender-female-card .intel *,
+body.cute-mode.cute-dark-mode .card.gender-female-card .meta,
+body.cute-mode.cute-dark-mode .card.gender-female-card .meta *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card * {
+    color: #ff79c7 !important;
+    -webkit-text-fill-color: currentColor !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-both-card,
+body.cute-mode.cute-dark-mode .card.gender-both-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-both-card .name,
+body.cute-mode.cute-dark-mode .card.gender-both-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-both-card .intel,
+body.cute-mode.cute-dark-mode .card.gender-both-card .intel *,
+body.cute-mode.cute-dark-mode .card.gender-both-card .meta,
+body.cute-mode.cute-dark-mode .card.gender-both-card .meta *,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .name,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .intel,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .intel *,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .meta,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .meta *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card * {
+    color: #c78cff !important;
+    -webkit-text-fill-color: currentColor !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-male-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-male-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .perk-chip,
+body.cute-mode.cute-dark-mode .card.gender-male-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .lore {
+    color: #68caff !important;
+    -webkit-text-fill-color: #68caff !important;
+    border-color: rgba(104,202,255,.72) !important;
+    background: rgba(5,13,24,.78) !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-female-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-female-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .perk-chip,
+body.cute-mode.cute-dark-mode .card.gender-female-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .lore {
+    color: #ff79c7 !important;
+    -webkit-text-fill-color: #ff79c7 !important;
+    border-color: rgba(255,121,199,.72) !important;
+    background: rgba(24,6,18,.78) !important;
+}
+
+body.cute-mode.cute-dark-mode .card.gender-both-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-both-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .perk-chip,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .perk-chip,
+body.cute-mode.cute-dark-mode .card.gender-both-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .lore,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .lore {
+    color: #c78cff !important;
+    -webkit-text-fill-color: #c78cff !important;
+    border-color: rgba(199,140,255,.72) !important;
+    background: rgba(17,8,27,.78) !important;
+}
+
+body.cute-mode.cute-dark-mode .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .from-row > span,
+body.cute-mode.cute-dark-mode .from-row > a,
+body.cute-mode.cute-dark-mode .target-intel .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .gender-female-card .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .gender-male-card .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row > span:not(.perk-list):not(.lore-row),
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row > span:not(.perk-list):not(.lore-row) {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body.cute-mode.cute-dark-mode .gender-male-card,
+body.cute-mode.cute-dark-mode .gender-male-card .name,
+body.cute-mode.cute-dark-mode .gender-male-card .name-link,
+body.cute-mode.cute-dark-mode .gender-male-card .card-body,
+body.cute-mode.cute-dark-mode .gender-male-card .intel,
+body.cute-mode.cute-dark-mode .gender-male-card .intel-row,
+body.cute-mode.cute-dark-mode .gender-male-card .intel-row b,
+body.cute-mode.cute-dark-mode .gender-male-card .intel-row span,
+body.cute-mode.cute-dark-mode .gender-male-card .intel-row a,
+body.cute-mode.cute-dark-mode .gender-male-card .from-link,
+body.cute-mode.cute-dark-mode .gender-male-card .from-pill,
+body.cute-mode.cute-dark-mode .gender-male-card .target-name,
+body.cute-mode.cute-dark-mode .gender-male-card .picked-name,
+body.cute-mode.cute-dark-mode .gender-male-card .tag,
+body.cute-mode.cute-dark-mode .gender-male-card .perk-chip,
+body.cute-mode.cute-dark-mode .gender-male-card .lore,
+body.cute-mode.cute-dark-mode .gender-male-card .restore-overlay,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .target-name,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .intel-row,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .intel-row b,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .intel-row span,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .intel-row a,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .lore {
+    color: var(--cdm-blue, #a9dfff) !important;
+    -webkit-text-fill-color: var(--cdm-blue, #a9dfff) !important;
+}
+
+body.cute-mode.cute-dark-mode .gender-female-card,
+body.cute-mode.cute-dark-mode .gender-female-card .name,
+body.cute-mode.cute-dark-mode .gender-female-card .name-link,
+body.cute-mode.cute-dark-mode .gender-female-card .card-body,
+body.cute-mode.cute-dark-mode .gender-female-card .intel,
+body.cute-mode.cute-dark-mode .gender-female-card .intel-row,
+body.cute-mode.cute-dark-mode .gender-female-card .intel-row b,
+body.cute-mode.cute-dark-mode .gender-female-card .intel-row span,
+body.cute-mode.cute-dark-mode .gender-female-card .intel-row a,
+body.cute-mode.cute-dark-mode .gender-female-card .from-link,
+body.cute-mode.cute-dark-mode .gender-female-card .from-pill,
+body.cute-mode.cute-dark-mode .gender-female-card .target-name,
+body.cute-mode.cute-dark-mode .gender-female-card .picked-name,
+body.cute-mode.cute-dark-mode .gender-female-card .tag,
+body.cute-mode.cute-dark-mode .gender-female-card .perk-chip,
+body.cute-mode.cute-dark-mode .gender-female-card .lore,
+body.cute-mode.cute-dark-mode .gender-female-card .restore-overlay,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .target-name,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .intel-row,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .intel-row b,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .intel-row span,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .intel-row a,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .lore {
+    color: var(--cdm-pink, #ff9bd6) !important;
+    -webkit-text-fill-color: var(--cdm-pink, #ff9bd6) !important;
+}
+
+body.cute-mode.cute-dark-mode .gender-both-card,
+body.cute-mode.cute-dark-mode .gender-unknown-card,
+body.cute-mode.cute-dark-mode .gender-both-card .name,
+body.cute-mode.cute-dark-mode .gender-unknown-card .name,
+body.cute-mode.cute-dark-mode .gender-both-card .name-link,
+body.cute-mode.cute-dark-mode .gender-unknown-card .name-link,
+body.cute-mode.cute-dark-mode .gender-both-card .card-body,
+body.cute-mode.cute-dark-mode .gender-unknown-card .card-body,
+body.cute-mode.cute-dark-mode .gender-both-card .intel,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel,
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row,
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row b,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row b,
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row span,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row span,
+body.cute-mode.cute-dark-mode .gender-both-card .intel-row a,
+body.cute-mode.cute-dark-mode .gender-unknown-card .intel-row a,
+body.cute-mode.cute-dark-mode .gender-both-card .from-link,
+body.cute-mode.cute-dark-mode .gender-unknown-card .from-link,
+body.cute-mode.cute-dark-mode .gender-both-card .from-pill,
+body.cute-mode.cute-dark-mode .gender-unknown-card .from-pill,
+body.cute-mode.cute-dark-mode .gender-both-card .target-name,
+body.cute-mode.cute-dark-mode .gender-unknown-card .target-name,
+body.cute-mode.cute-dark-mode .gender-both-card .picked-name,
+body.cute-mode.cute-dark-mode .gender-unknown-card .picked-name,
+body.cute-mode.cute-dark-mode .gender-both-card .tag,
+body.cute-mode.cute-dark-mode .gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode .tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-both,
+body.cute-mode.cute-dark-mode .gender-both-card .perk-chip,
+body.cute-mode.cute-dark-mode .gender-unknown-card .perk-chip,
+body.cute-mode.cute-dark-mode .gender-both-card .lore,
+body.cute-mode.cute-dark-mode .gender-unknown-card .lore,
+body.cute-mode.cute-dark-mode .gender-both-card .restore-overlay,
+body.cute-mode.cute-dark-mode .gender-unknown-card .restore-overlay,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .target-name,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .target-name,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .intel-row,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .intel-row,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .intel-row b,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .intel-row b,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .intel-row span,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .intel-row span,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .intel-row a,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .intel-row a,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .perk-chip,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .lore {
+    color: var(--cdm-purple, #d7b6ff) !important;
+    -webkit-text-fill-color: var(--cdm-purple, #d7b6ff) !important;
+}
+
+body.cute-mode.cute-dark-mode .tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-both {
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+    border-color: var(--cdm-border-purple, rgba(215,182,255,.5)) !important;
+}
+
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle,
+body.cute-mode.cute-dark-mode .cute-dark-heart-toggle.active {
+    box-shadow: 0 0 0 2px rgba(169, 223, 255, .24), 0 8px 20px rgba(111, 211, 255, .30) !important;
+}
+body.cute-mode.cute-dark-mode .cute-heart-toggle:not(.cute-dark-heart-toggle) {
+    box-shadow: 0 0 0 2px rgba(255, 155, 214, .24), 0 8px 20px rgba(255, 117, 198, .30) !important;
+}
+
+body.cute-mode.cute-dark-mode .perk-detail-card,
+body.cute-mode.cute-dark-mode .perk-detail-copy,
+body.cute-mode.cute-dark-mode .official-perk-text,
+body.cute-mode.cute-dark-mode .perk-detail-meta,
+body.cute-mode.cute-dark-mode .perk-dialog-body,
+body.cute-mode.cute-dark-mode .perk-modal-body {
+    box-sizing: border-box !important;
+    min-width: min(100%, 28rem) !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+body.cute-mode.cute-dark-mode .perk-chip,
+body.cute-mode.cute-dark-mode .perk-list span {
+    box-sizing: border-box !important;
+    padding-left: .7rem !important;
+    padding-right: .7rem !important;
+}
+
+body.cute-mode.cute-dark-mode .card.bonus-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.speed-tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.hair-tag {
+    min-height: 18px !important;
+    padding: 2px 5px !important;
+    font-size: .54rem !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+    font-weight: 800 !important;
+}
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row {
+    gap: 4px !important;
+}
+
+
+body.cute-mode.cute-dark-mode .card.gender-female-card .name,
+body.cute-mode.cute-dark-mode .card.gender-female-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-female-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-female-card .card-body *,
+body.cute-mode.cute-dark-mode .card.gender-female-card .intel-row,
+body.cute-mode.cute-dark-mode .card.gender-female-card .intel-row *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card *,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-female-card .search-suggestion-name {
+    color: var(--cdm-pink, #ff9bd6) !important;
+    -webkit-text-fill-color: var(--cdm-pink, #ff9bd6) !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-male-card .name,
+body.cute-mode.cute-dark-mode .card.gender-male-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-male-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-male-card .card-body *,
+body.cute-mode.cute-dark-mode .card.gender-male-card .intel-row,
+body.cute-mode.cute-dark-mode .card.gender-male-card .intel-row *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card *,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-male-card .search-suggestion-name {
+    color: var(--cdm-blue, #a9dfff) !important;
+    -webkit-text-fill-color: var(--cdm-blue, #a9dfff) !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-both-card .name,
+body.cute-mode.cute-dark-mode .card.gender-both-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-both-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-both-card .card-body *,
+body.cute-mode.cute-dark-mode .card.gender-both-card .intel-row,
+body.cute-mode.cute-dark-mode .card.gender-both-card .intel-row *,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .name,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .name-link,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .card-body,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .card-body *,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .intel-row,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .intel-row *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card *,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card *,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-both-card .search-suggestion-name,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-unknown-card .search-suggestion-name {
+    color: var(--cdm-purple, #d7b6ff) !important;
+    -webkit-text-fill-color: var(--cdm-purple, #d7b6ff) !important;
+    background-image: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-stroke: 0 !important;
+}
+body.cute-mode.cute-dark-mode .card .tag,
+body.cute-mode.cute-dark-mode .target-reveal .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.speed-tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.hair-tag {
+    min-height: 20px !important;
+    padding: 3px 8px !important;
+    font-size: .62rem !important;
+    line-height: 1.05 !important;
+    letter-spacing: .02em !important;
+    font-weight: 800 !important;
+}
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row {
+    gap: 6px !important;
+}
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-female,
+body.cute-mode.cute-dark-mode .card.gender-female-card .tag.gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .card.gender-female-card .tag.gender-female {
+    color: var(--cdm-pink, #ff9bd6) !important;
+    -webkit-text-fill-color: var(--cdm-pink, #ff9bd6) !important;
+    background: rgba(255, 117, 198, .16) !important;
+    border-color: rgba(255, 155, 214, .70) !important;
+}
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-male,
+body.cute-mode.cute-dark-mode .tag.gender-male,
+body.cute-mode.cute-dark-mode .card.gender-male-card .tag.gender-tag.gender-male,
+body.cute-mode.cute-dark-mode .card.gender-male-card .tag.gender-male {
+    color: var(--cdm-blue, #a9dfff) !important;
+    -webkit-text-fill-color: var(--cdm-blue, #a9dfff) !important;
+    background: rgba(111, 211, 255, .14) !important;
+    border-color: rgba(169, 223, 255, .68) !important;
+}
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-unknown,
+body.cute-mode.cute-dark-mode .card.gender-both-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .tag.gender-tag {
+    color: var(--cdm-purple, #d7b6ff) !important;
+    -webkit-text-fill-color: var(--cdm-purple, #d7b6ff) !important;
+    background: rgba(171, 137, 255, .14) !important;
+    border-color: rgba(215, 182, 255, .62) !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+}
+
+body.cute-mode.cute-dark-mode .card .tag,
+body.cute-mode.cute-dark-mode .target-reveal .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.speed-tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .tag.hair-tag {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 18px !important;
+    padding: 2px 5px !important;
+    border-radius: 999px !important;
+    font-size: .54rem !important;
+    font-weight: 800 !important;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    box-sizing: border-box !important;
+}
+body.cute-mode.cute-dark-mode .card .meta-row,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row,
+body.cute-mode.cute-dark-mode .target-reveal .meta-row {
+    gap: 4px !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-female-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-female-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-female,
+body.cute-mode.cute-dark-mode .tag.gender-female {
+    color: var(--cdm-pink, #ff9bd6) !important;
+    -webkit-text-fill-color: var(--cdm-pink, #ff9bd6) !important;
+    background: rgba(255, 117, 198, .16) !important;
+    border-color: rgba(255, 155, 214, .70) !important;
+    box-shadow: 0 4px 10px rgba(255, 117, 198, .12), inset 0 1px 0 rgba(255,255,255,.06) !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-male-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-male-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-male,
+body.cute-mode.cute-dark-mode .tag.gender-male {
+    color: var(--cdm-blue, #a9dfff) !important;
+    -webkit-text-fill-color: var(--cdm-blue, #a9dfff) !important;
+    background: rgba(111, 211, 255, .14) !important;
+    border-color: rgba(169, 223, 255, .68) !important;
+    box-shadow: 0 4px 10px rgba(111, 211, 255, .11), inset 0 1px 0 rgba(255,255,255,.06) !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-both-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .tag,
+body.cute-mode.cute-dark-mode .card.gender-both-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .tag.gender-tag,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-tag.gender-unknown,
+body.cute-mode.cute-dark-mode .tag.gender-both,
+body.cute-mode.cute-dark-mode .tag.gender-unknown {
+    color: var(--cdm-purple, #d7b6ff) !important;
+    -webkit-text-fill-color: var(--cdm-purple, #d7b6ff) !important;
+    background: rgba(171, 137, 255, .14) !important;
+    border-color: rgba(215, 182, 255, .62) !important;
+    box-shadow: 0 4px 10px rgba(171, 137, 255, .12), inset 0 1px 0 rgba(255,255,255,.06) !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+}
+
+body.cute-mode.cute-dark-mode .card .meta .tag,
+body.cute-mode.cute-dark-mode .card .meta-row .tag,
+body.cute-mode.cute-dark-mode .target-reveal .meta .tag,
+body.cute-mode.cute-dark-mode .target-reveal .meta-row .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.bonus-card .meta-row .tag {
+    background: rgba(8, 7, 16, .96) !important;
+    background-image: none !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 3px 8px rgba(0,0,0,.22) !important;
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-female-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.gender-female-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .meta .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .meta-row .tag {
+    color: #ff8fcd !important;
+    -webkit-text-fill-color: #ff8fcd !important;
+    border-color: rgba(255, 132, 203, .48) !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-male-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.gender-male-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .meta .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .meta-row .tag {
+    color: #8fd6ff !important;
+    -webkit-text-fill-color: #8fd6ff !important;
+    border-color: rgba(122, 208, 255, .48) !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-both-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.gender-both-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .meta .tag,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .meta .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .meta-row .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .meta .tag,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .meta-row .tag {
+    color: #d6b2ff !important;
+    -webkit-text-fill-color: #d6b2ff !important;
+    border-color: rgba(205, 164, 255, .48) !important;
+}
+body.cute-mode.cute-dark-mode .card .portrait,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait,
+body.cute-mode.cute-dark-mode .search-suggestion {
+    position: relative !important;
+    isolation: isolate !important;
+    overflow: hidden !important;
+}
+body.cute-mode.cute-dark-mode .card .portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait::after,
+body.cute-mode.cute-dark-mode .search-suggestion::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 1px !important;
+    border-radius: inherit !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+    opacity: .72 !important;
+    mix-blend-mode: normal !important;
+    background: linear-gradient(180deg, rgba(8,7,16,.16), rgba(8,7,16,.34)) !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-female-card .portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-female-card::after {
+    background: linear-gradient(180deg, rgba(255,117,198,.13), rgba(8,7,16,.38)) !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-male-card .portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-male-card::after {
+    background: linear-gradient(180deg, rgba(111,211,255,.13), rgba(8,7,16,.38)) !important;
+}
+body.cute-mode.cute-dark-mode .card.gender-both-card .portrait::after,
+body.cute-mode.cute-dark-mode .card.gender-unknown-card .portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .result-portrait::after,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-both-card::after,
+body.cute-mode.cute-dark-mode .search-suggestion.gender-unknown-card::after {
+    background: linear-gradient(180deg, rgba(187,142,255,.13), rgba(8,7,16,.38)) !important;
+}
+body.cute-mode.cute-dark-mode .card .portrait img,
+body.cute-mode.cute-dark-mode .target-reveal .result-portrait img,
+body.cute-mode.cute-dark-mode .search-suggestion img {
+    position: relative !important;
+    z-index: 0 !important;
+}
+body.cute-mode.cute-dark-swap-transition::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 2147483646;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at 48% 46%, rgba(255,155,214,.22), transparent 24rem),
+        radial-gradient(circle at 54% 54%, rgba(169,223,255,.20), transparent 25rem),
+        rgba(8, 7, 16, .22);
+    animation: cuteDarkSwapWash .7s ease both;
+}
+@keyframes cuteDarkSwapWash {
+    0% { opacity: 0; backdrop-filter: blur(0); }
+    35% { opacity: 1; backdrop-filter: blur(8px); }
+    100% { opacity: 0; backdrop-filter: blur(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+    body.cute-mode.cute-dark-swap-transition::after { animation: none !important; opacity: 0 !important; }
+}
+
+body.cute-mode.cute-dark-mode dialog .modal-actions .btn,
+body.cute-mode.cute-dark-mode dialog #closeDialogBtn,
+body.cute-mode.cute-dark-mode dialog #cancelNewGameBtn,
+body.cute-mode.cute-dark-mode dialog #dialogNewGameBtn,
+body.cute-mode.cute-dark-mode dialog #confirmNewGameBtn,
+body.cute-mode.cute-dark-mode dialog #correctGuessBtn,
+body.cute-mode.cute-dark-mode dialog #wrongGuessBtn,
+body.cute-mode.cute-dark-mode dialog #closePerkDialogBtn {
+    border-color: rgba(255, 168, 222, .66) !important;
+    color: #bfeaff !important;
+    background: linear-gradient(135deg, #08070f 0%, #180d21 48%, #071923 100%) !important;
+    background-color: #08070f !important;
+    box-shadow: 0 8px 18px rgba(255, 117, 198, .14), inset 0 1px 0 rgba(255,255,255,.08) !important;
+    text-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode dialog .modal-actions .btn:hover,
+body.cute-mode.cute-dark-mode dialog .modal-actions .btn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #closeDialogBtn:hover,
+body.cute-mode.cute-dark-mode dialog #closeDialogBtn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #cancelNewGameBtn:hover,
+body.cute-mode.cute-dark-mode dialog #cancelNewGameBtn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #dialogNewGameBtn:hover,
+body.cute-mode.cute-dark-mode dialog #dialogNewGameBtn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #confirmNewGameBtn:hover,
+body.cute-mode.cute-dark-mode dialog #confirmNewGameBtn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #correctGuessBtn:hover,
+body.cute-mode.cute-dark-mode dialog #correctGuessBtn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #wrongGuessBtn:hover,
+body.cute-mode.cute-dark-mode dialog #wrongGuessBtn:focus-visible,
+body.cute-mode.cute-dark-mode dialog #closePerkDialogBtn:hover,
+body.cute-mode.cute-dark-mode dialog #closePerkDialogBtn:focus-visible {
+    border-color: rgba(169, 223, 255, .78) !important;
+    color: #ff9bd6 !important;
+    background: linear-gradient(135deg, #090813 0%, #081c28 52%, #1b0e24 100%) !important;
+    background-color: #090813 !important;
+    box-shadow: 0 10px 24px rgba(111, 211, 255, .16), inset 0 1px 0 rgba(255,255,255,.09) !important;
+}
+
+body.cute-mode.cute-dark-mode #skipBaseBtn.active,
+body.cute-mode.cute-dark-mode #skipBaseBtn[aria-pressed="true"],
+body.cute-mode.cute-dark-mode .hard-mode-btn.active,
+body.cute-mode.cute-dark-mode .hard-mode-btn[aria-pressed="true"],
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn.active,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn[aria-pressed="true"] {
+    color: var(--cute-dark-flat-pink, #ff9bd6) !important;
+    -webkit-text-fill-color: var(--cute-dark-flat-pink, #ff9bd6) !important;
+    border-color: rgba(255,155,214,.72) !important;
+    background: #140914 !important;
+    background-image: linear-gradient(135deg, #0a0812 0%, #170817 52%, #07121b 100%) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 7px 12px rgba(0,0,0,.24) !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #skipBaseBtn.active::after,
+body.cute-mode.cute-dark-mode #skipBaseBtn[aria-pressed="true"]::after,
+body.cute-mode.cute-dark-mode .hard-mode-btn.active::after,
+body.cute-mode.cute-dark-mode .hard-mode-btn[aria-pressed="true"]::after,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn.active::after,
+body.cute-mode.cute-dark-mode .chip.danger.hard-mode-btn[aria-pressed="true"]::after {
+    background: linear-gradient(180deg, rgba(255,155,214,.18), rgba(255,155,214,0)) !important;
+    opacity: .55 !important;
+}
+body.cute-mode.cute-dark-mode #log,
+body.cute-mode.cute-dark-mode #actionLog,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable,
+body.cute-mode.cute-dark-mode .question-elim-column,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list {
+    scrollbar-width: thin !important;
+    scrollbar-color: #ff9bd6 #07060d !important;
+    scrollbar-gutter: stable !important;
+}
+body.cute-mode.cute-dark-mode #log::-webkit-scrollbar,
+body.cute-mode.cute-dark-mode #actionLog::-webkit-scrollbar,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable::-webkit-scrollbar,
+body.cute-mode.cute-dark-mode .question-elim-column::-webkit-scrollbar,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list::-webkit-scrollbar,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list::-webkit-scrollbar {
+    width: 11px !important;
+    height: 11px !important;
+}
+body.cute-mode.cute-dark-mode #log::-webkit-scrollbar-track,
+body.cute-mode.cute-dark-mode #actionLog::-webkit-scrollbar-track,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable::-webkit-scrollbar-track,
+body.cute-mode.cute-dark-mode .question-elim-column::-webkit-scrollbar-track,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list::-webkit-scrollbar-track,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #05040a 0%, #100817 100%) !important;
+    border: 1px solid rgba(255,155,214,.42) !important;
+    border-radius: 999px !important;
+}
+body.cute-mode.cute-dark-mode #log::-webkit-scrollbar-thumb,
+body.cute-mode.cute-dark-mode #actionLog::-webkit-scrollbar-thumb,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable::-webkit-scrollbar-thumb,
+body.cute-mode.cute-dark-mode .question-elim-column::-webkit-scrollbar-thumb,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list::-webkit-scrollbar-thumb,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ff9bd6 0%, #d7b6ff 52%, #a9dfff 100%) !important;
+    border: 2px solid #05040a !important;
+    border-radius: 999px !important;
+    box-shadow: 0 0 9px rgba(255,155,214,.28), inset 0 1px 0 rgba(255,255,255,.24) !important;
+}
+body.cute-mode.cute-dark-mode #log::-webkit-scrollbar-thumb:hover,
+body.cute-mode.cute-dark-mode #actionLog::-webkit-scrollbar-thumb:hover,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable::-webkit-scrollbar-thumb:hover,
+body.cute-mode.cute-dark-mode .question-elim-column::-webkit-scrollbar-thumb:hover,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list::-webkit-scrollbar-thumb:hover,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list::-webkit-scrollbar-thumb:hover,
+body.cute-mode.cute-dark-mode #log::-webkit-scrollbar-thumb:active,
+body.cute-mode.cute-dark-mode #actionLog::-webkit-scrollbar-thumb:active,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable::-webkit-scrollbar-thumb:active,
+body.cute-mode.cute-dark-mode .question-elim-column::-webkit-scrollbar-thumb:active,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list::-webkit-scrollbar-thumb:active,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(180deg, #ffc6ea 0%, #ff9bd6 48%, #bfeaff 100%) !important;
+}
+body.cute-mode.cute-dark-mode #log::-webkit-scrollbar-corner,
+body.cute-mode.cute-dark-mode #actionLog::-webkit-scrollbar-corner,
+body.cute-mode.cute-dark-mode .question-elim-listbox.is-scrollable::-webkit-scrollbar-corner,
+body.cute-mode.cute-dark-mode .question-elim-column::-webkit-scrollbar-corner,
+body.cute-mode.cute-dark-mode #questionLabel .meow-custom-select-list::-webkit-scrollbar-corner,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-list::-webkit-scrollbar-corner {
+    background: #07060d !important;
+}
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select.is-open .meow-custom-select-button,
+body.cute-mode.cute-dark-mode #detailField .meow-custom-select-button:focus-visible {
+    outline: 3px solid rgba(215,182,255,.35) !important;
+    outline-offset: 3px !important;
+    border-color: rgba(255,155,214,.72) !important;
+    box-shadow: 0 0 0 4px rgba(169,223,255,.16), 0 10px 22px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.05) !important;
+}
+
+body.cute-mode.cute-dark-mode .target-reveal .lore,
+body.cute-mode.cute-dark-mode .target-reveal .summary-toggle,
+body.cute-mode.cute-dark-mode .target-reveal [data-action="summary"],
+body.cute-mode.cute-dark-mode .target-reveal [data-action="view-summary"],
+body.cute-mode.cute-dark-mode .target-reveal button[aria-expanded]:not(.perk-chip) {
+    outline: none !important;
+    outline-offset: 0 !important;
+}
+
+/* Cute dark hidden-character summary button gender colors */
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card .summary-toggle,
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card [data-action="summary"],
+body.cute-mode.cute-dark-mode .target-reveal.gender-female-card [data-action="view-summary"] {
+    color: var(--cdm-pink, #ff9bd6) !important;
+    -webkit-text-fill-color: var(--cdm-pink, #ff9bd6) !important;
+    border-color: rgba(255, 121, 199, .78) !important;
+    background: rgba(24, 6, 18, .78) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card .summary-toggle,
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card [data-action="summary"],
+body.cute-mode.cute-dark-mode .target-reveal.gender-male-card [data-action="view-summary"] {
+    color: var(--cdm-blue, #a9dfff) !important;
+    -webkit-text-fill-color: var(--cdm-blue, #a9dfff) !important;
+    border-color: rgba(104, 202, 255, .78) !important;
+    background: rgba(5, 13, 24, .78) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card .summary-toggle,
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card [data-action="summary"],
+body.cute-mode.cute-dark-mode .target-reveal.gender-both-card [data-action="view-summary"],
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .lore,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card .summary-toggle,
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card [data-action="summary"],
+body.cute-mode.cute-dark-mode .target-reveal.gender-unknown-card [data-action="view-summary"] {
+    color: var(--cdm-purple, #d7b6ff) !important;
+    -webkit-text-fill-color: var(--cdm-purple, #d7b6ff) !important;
+    border-color: rgba(199, 140, 255, .78) !important;
+    background: rgba(17, 8, 27, .78) !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Cute dark hidden-character lore row/button gender accents */
+body.cute-mode.cute-dark-mode #targetBox .target-reveal {
+    --hidden-summary-accent: var(--cdm-purple, #d7b6ff);
+    --hidden-summary-border: rgba(199, 140, 255, .82);
+    --hidden-summary-bg: rgba(17, 8, 27, .80);
+    --hidden-summary-glow: rgba(199, 140, 255, .18);
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal.gender-female-card {
+    --hidden-summary-accent: var(--cdm-pink, #ff9bd6);
+    --hidden-summary-border: rgba(255, 121, 199, .84);
+    --hidden-summary-bg: rgba(24, 6, 18, .82);
+    --hidden-summary-glow: rgba(255, 121, 199, .20);
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal.gender-male-card {
+    --hidden-summary-accent: var(--cdm-blue, #a9dfff);
+    --hidden-summary-border: rgba(104, 202, 255, .84);
+    --hidden-summary-bg: rgba(5, 13, 24, .82);
+    --hidden-summary-glow: rgba(104, 202, 255, .20);
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal.gender-both-card,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal.gender-unknown-card {
+    --hidden-summary-accent: var(--cdm-purple, #d7b6ff);
+    --hidden-summary-border: rgba(199, 140, 255, .84);
+    --hidden-summary-bg: rgba(17, 8, 27, .82);
+    --hidden-summary-glow: rgba(199, 140, 255, .20);
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row b,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .lore-row,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .lore-cell,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:hover,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:focus,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:focus-visible,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:active {
+    color: var(--hidden-summary-accent) !important;
+    -webkit-text-fill-color: var(--hidden-summary-accent) !important;
+    text-shadow: none !important;
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .lore-cell {
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:hover,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:focus,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:focus-visible,
+body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .hidden-character-lore-toggle:active {
+    border-color: var(--hidden-summary-border) !important;
+    outline: 0 !important;
+    background: var(--hidden-summary-bg) !important;
+    background-image: none !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 0 10px var(--hidden-summary-glow) !important;
+}
+
+/* Phone responsiveness + visible restore button override */
+@media (max-width: 760px), (pointer: coarse) {
+    body.cute-mode.cute-dark-mode .transition-input-shield,
+    body.cute-mode.cute-dark-mode .gw-cute-dark-press-spark,
+    body.cute-mode.cute-dark-mode .gw-cute-dark-elim-shell,
+    body.cute-mode.cute-dark-mode .gw-cute-dark-grid-exit-clone {
+        display: none !important;
+        pointer-events: none !important;
+    }
+
+    body.cute-mode.cute-dark-mode .card,
+    body.cute-mode.cute-dark-mode .card *,
+    body.cute-mode.cute-dark-mode .btn,
+    body.cute-mode.cute-dark-mode .chip,
+    body.cute-mode.cute-dark-mode .card-action,
+    body.cute-mode.cute-dark-mode .restore-overlay,
+    body.cute-mode.cute-dark-mode .lore,
+    body.cute-mode.cute-dark-mode .log-step-btn,
+    body.cute-mode.cute-dark-mode .custom-unlock-btn {
+        transition-duration: .01ms !important;
+        transition-delay: 0ms !important;
+        animation-duration: .01ms !important;
+        animation-delay: 0ms !important;
+    }
+
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated:hover .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated:focus-within .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay:hover,
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay:focus-visible,
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay:active {
+        display: inline-flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        filter: none !important;
+        transform: translate(-50%, -50%) !important;
+        z-index: 10 !important;
+        min-width: 112px !important;
+        min-height: 44px !important;
+        color: #ffe7f7 !important;
+        -webkit-text-fill-color: #ffe7f7 !important;
+        border-color: rgba(255,155,214,.92) !important;
+        background: linear-gradient(135deg, rgba(46, 10, 38, .98), rgba(12, 28, 42, .98)) !important;
+        box-shadow: 0 0 0 1px rgba(169,223,255,.28), 0 0 14px rgba(255,155,214,.36), inset 0 1px 0 rgba(255,255,255,.12) !important;
+        text-shadow: 0 0 8px rgba(255,155,214,.6) !important;
+    }
+
+    body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row,
+    body.cute-mode.cute-dark-mode #targetBox .target-reveal .lore-intel-row .lore-cell {
+        border: 0 !important;
+        outline: 0 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+}
+
+/* Final phone/zoom fixes for cute dark filters and restore buttons */
+@media (max-width: 760px), (pointer: coarse) {
+    body.cute-mode.cute-dark-mode .filter-divider {
+        display: none !important;
+    }
+
+    body.cute-mode.cute-dark-mode .filter-group {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        width: min(100%, 330px) !important;
+        max-width: 330px !important;
+        margin-inline: auto !important;
+        gap: 9px !important;
+    }
+
+    body.cute-mode.cute-dark-mode .filter-group [data-filter="all"] {
+        grid-column: 1 / -1 !important;
+        width: min(170px, 100%) !important;
+        justify-self: center !important;
+    }
+
+    body.cute-mode.cute-dark-mode .filter-group [data-filter="killer"],
+    body.cute-mode.cute-dark-mode .filter-group [data-filter="survivor"],
+    body.cute-mode.cute-dark-mode .filter-group [data-filter="standing"],
+    body.cute-mode.cute-dark-mode .filter-group [data-filter="eliminated"] {
+        grid-column: auto !important;
+        width: 100% !important;
+        justify-self: stretch !important;
+    }
+}
+
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-divider {
+    display: none !important;
+}
+
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-group {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: min(100%, 330px) !important;
+    max-width: 330px !important;
+    margin-inline: auto !important;
+    gap: 9px !important;
+}
+
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-group [data-filter="all"] {
+    grid-column: 1 / -1 !important;
+    width: min(170px, 100%) !important;
+    justify-self: center !important;
+}
+
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-group [data-filter="killer"],
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-group [data-filter="survivor"],
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-group [data-filter="standing"],
+html.zoom-250plus body.cute-mode.cute-dark-mode .filter-group [data-filter="eliminated"] {
+    grid-column: auto !important;
+    width: 100% !important;
+    justify-self: stretch !important;
+}
+
+body.cute-mode.cute-dark-mode .filters .chip.active,
+body.cute-mode.cute-dark-mode .filters .chip.selected,
+body.cute-mode.cute-dark-mode .filters .chip[aria-pressed="true"],
+body.cute-mode.cute-dark-mode .bulk-group .chip.active,
+body.cute-mode.cute-dark-mode .bulk-group .chip.selected,
+body.cute-mode.cute-dark-mode .bulk-group .chip[aria-pressed="true"],
+body.cute-mode.cute-dark-mode .filters .chip.active:hover,
+body.cute-mode.cute-dark-mode .filters .chip.selected:hover,
+body.cute-mode.cute-dark-mode .filters .chip[aria-pressed="true"]:hover,
+body.cute-mode.cute-dark-mode .bulk-group .chip.active:hover,
+body.cute-mode.cute-dark-mode .bulk-group .chip.selected:hover,
+body.cute-mode.cute-dark-mode .bulk-group .chip[aria-pressed="true"]:hover,
+body.cute-mode.cute-dark-mode .filters .chip.active:focus-visible,
+body.cute-mode.cute-dark-mode .filters .chip.selected:focus-visible,
+body.cute-mode.cute-dark-mode .filters .chip[aria-pressed="true"]:focus-visible,
+body.cute-mode.cute-dark-mode .bulk-group .chip.active:focus-visible,
+body.cute-mode.cute-dark-mode .bulk-group .chip.selected:focus-visible,
+body.cute-mode.cute-dark-mode .bulk-group .chip[aria-pressed="true"]:focus-visible,
+body.cute-mode.cute-dark-mode .filters .chip.active:active,
+body.cute-mode.cute-dark-mode .filters .chip.selected:active,
+body.cute-mode.cute-dark-mode .filters .chip[aria-pressed="true"]:active,
+body.cute-mode.cute-dark-mode .bulk-group .chip.active:active,
+body.cute-mode.cute-dark-mode .bulk-group .chip.selected:active,
+body.cute-mode.cute-dark-mode .bulk-group .chip[aria-pressed="true"]:active {
+    color: #ff9bd6 !important;
+    -webkit-text-fill-color: #ff9bd6 !important;
+    background: linear-gradient(180deg, #1a0b1b 0%, #130916 58%, #071722 100%) !important;
+    border-color: rgba(255, 155, 214, .82) !important;
+    box-shadow: 0 0 0 1px rgba(255,155,214,.28), 0 8px 18px rgba(255,117,198,.14), inset 0 1px 0 rgba(255,255,255,.08) !important;
+    outline: none !important;
+    transform: none !important;
+}
+
+@media (max-width: 760px), (pointer: coarse) {
+    body.cute-mode.cute-dark-mode .card.eliminated,
+    body.cute-mode.cute-dark-mode .card.eliminated:hover {
+        opacity: 1 !important;
+        filter: none !important;
+    }
+
+    body.cute-mode.cute-dark-mode .card.eliminated > :not(.restore-overlay) {
+        opacity: .42 !important;
+        filter: saturate(.56) brightness(.62) !important;
+    }
+
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated:hover .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated:focus-within .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay:hover,
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay:focus-visible,
+    body.cute-mode.cute-dark-mode .card.eliminated .restore-overlay:active,
+    body.cute-mode.cute-dark-mode .card.eliminated:has(.card-top) .restore-overlay,
+    body.cute-mode.cute-dark-mode .card.eliminated:has(.portrait) .restore-overlay {
+        position: absolute !important;
+        left: 50% !important;
+        top: 112px !important;
+        right: auto !important;
+        bottom: auto !important;
+        transform: translate(-50%, -50%) !important;
+        z-index: 720 !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+        filter: none !important;
+        min-width: 118px !important;
+        min-height: 46px !important;
+        color: #ffe7f7 !important;
+        -webkit-text-fill-color: #ffe7f7 !important;
+        background: linear-gradient(135deg, rgba(54, 11, 45, .98), rgba(11, 32, 48, .98)) !important;
+        border-color: rgba(255, 155, 214, .96) !important;
+        box-shadow: 0 0 0 1px rgba(169,223,255,.32), 0 0 18px rgba(255,155,214,.46), 0 10px 22px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.12) !important;
+        text-shadow: 0 0 8px rgba(255,155,214,.66) !important;
+    }
+
+    body.cute-mode.cute-dark-mode .restore-overlay[hidden] {
+        display: none !important;
+    }
+}
+
+
+/* Desktop zoom 175% / 200% filter grouping: first row All + Killers + Survivors, second row Remaining + Eliminated. */
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-divider {
+    display: none !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filters {
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-group {
+    display: grid !important;
+    grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+    width: min(100%, 560px) !important;
+    max-width: 560px !important;
+    margin-inline: auto !important;
+    justify-content: center !important;
+    justify-items: stretch !important;
+    gap: 8px !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-group [data-filter="all"] {
+    grid-column: 1 / 3 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    justify-self: stretch !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-group [data-filter="killer"] {
+    grid-column: 3 / 5 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    justify-self: stretch !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-group [data-filter="survivor"] {
+    grid-column: 5 / 7 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    justify-self: stretch !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-group [data-filter="standing"] {
+    grid-column: 2 / 4 !important;
+    grid-row: 2 !important;
+    width: 100% !important;
+    justify-self: stretch !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filter-group [data-filter="eliminated"] {
+    grid-column: 4 / 6 !important;
+    grid-row: 2 !important;
+    width: 100% !important;
+    justify-self: stretch !important;
+}
+
+/* Desktop zoom 175% / 200% cute dark bulk button alignment fix.
+   Keeps the mass-eliminate controls centered under the two-row filter layout. */
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .filters {
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+    align-items: center !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group {
+    display: grid !important;
+    grid-template-columns: repeat(3, 136px) !important;
+    width: min(100%, 424px) !important;
+    max-width: 424px !important;
+    justify-self: center !important;
+    justify-content: center !important;
+    justify-items: stretch !important;
+    margin: 0 auto !important;
+    gap: 8px !important;
+}
+
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip,
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip[data-cross-group="killer"],
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip[data-cross-group="female"],
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip[data-cross-group="licensed"],
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip[data-cross-group="survivor"],
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip[data-cross-group="male"],
+html.zoom-filter-two-row body.cute-mode.cute-dark-mode .bulk-group .chip[data-cross-group="original"] {
+    width: 136px !important;
+    min-width: 136px !important;
+    max-width: 136px !important;
+    justify-self: stretch !important;
+}
